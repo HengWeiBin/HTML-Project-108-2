@@ -35,5 +35,41 @@ a{
     text-decoration: none;
 }
 
-.main{
+.pic_1st_section{
+    width: 100%;
+    height: 500px;
+}
+
+._2nd_section{
+    display: flex;
+}
+
+.pic_2nd_section{
+    width: calc(1/3 * 100%);
+    height: 180px;
+}
+
+._3rd_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic_3rd_section{
+    width: 370px;
+    height: 320px;
+}
+
+._5th_section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table_5th_section{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
 }
