@@ -38,7 +38,15 @@ a{
 ._1st_section{
     text-align: center;;
 }
+._2nd_section{
+    display: flex;
+    justify-content: space-between;
+}
 
+._3rd_section{
+    background-image: none;
+    text-align: center;
+}
 ._4th_section{
     width: 100%;
     display: flex;
