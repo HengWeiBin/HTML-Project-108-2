@@ -38,9 +38,15 @@ a{
 ._1st_section{
     text-align: center;;
 }
+
 ._2nd_section{
     display: flex;
     justify-content: space-between;
+}
+
+.pic_2nd_section{
+    width: 220px;
+    height: 180px;
 }
 
 ._3rd_section{
