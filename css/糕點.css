@@ -36,7 +36,30 @@ a{
 }
 
 ._1st_section{
-    text-align: center;;
+    width: 960px;
+    height: 240px;
+    background-color: red;
+    position: relative;
+}
+
+._1st_section h1{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 48pt;
+}
+
+._1st_section p{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 24pt;
 }
 
 ._2nd_section{
@@ -44,19 +67,115 @@ a{
     justify-content: space-between;
 }
 
+._2nd_section_pic_top{
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+._2nd_section_pic_bot{
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+
 .pic_2nd_section{
     width: 220px;
     height: 180px;
 }
 
-._3rd_section{
-    background-image: none;
-    text-align: center;
+.title_cake{
+    font-size: 15pt;
+    color: #8F6500;
 }
+
+.subtitle_cake{
+    font-size: 10pt;
+    color: #8F6500;
+    text-align: right;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.description{
+    font-size: 10pt;
+}
+
+.cheese_cake{
+    width: 220px;
+    margin-left: 90px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.chocolate_cake{
+    width: 220px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.orange_pie{
+    width: 220px;
+    margin-left: 30px;
+    margin-right: 90px;
+    margin-bottom: 60px;
+}
+
+.cinnamon_roll{
+    width: 220px;
+    margin-left: 90px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.macron{
+    width: 220px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.pancake{
+    width: 220px;
+    margin-left: 30px;
+    margin-right: 90px;
+    margin-bottom: 60px;
+}
+
+._3rd_section{
+    width: 960px;
+    height: 180px;
+    background-image: none;
+    background-color: blue;
+    text-align: center;
+    position: relative;
+}
+
+._3rd_section h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 24pt;
+}
+
 ._4th_section{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color:gray;
 }
 
 .table_4th_section{
@@ -64,6 +183,9 @@ a{
 }
 
 footer{
+    width: 960px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    background-color: brown;
 }

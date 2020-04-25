@@ -59,10 +59,25 @@ a{
     height: 320px;
 }
 
+.title_menu{
+    font-size: 48pt;
+    color: #8F6500;
+}
+
+.subtitle_menu{
+    font-size: 24pt;
+    color: #8F6500;
+}
+
+.description{
+    font-size: 10pt;
+}
 ._5th_section{
     width: 100%;
+    height: 180px;
     display: flex;
     justify-content: space-between;
+    background-color: grey;
 }
 
 .table_5th_section{
@@ -70,6 +85,9 @@ a{
 }
 
 footer{
+    width: 960px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    background-color: brown;
 }

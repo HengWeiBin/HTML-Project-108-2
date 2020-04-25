@@ -5,7 +5,12 @@ html{
     box-sizing: inherit;
 }
 
+body{
+    margin: 0;
+}
+
 .container{
+    
     width: 960px;
     height: auto;
     margin: auto;
@@ -36,15 +41,52 @@ a{
 }
 
 ._1st_section{
-    background-image: none;
-    text-align: center;
+    width: 960px;
+    height: 240px;
+    background-color: red;
+    position: relative;
+    padding: 0;
 }
+
+._1st_section h1{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 48pt;
+}
+
+._1st_section p{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 24pt;
+}
+
 
 ._2nd_section{
-    text-align: center;
+    width: 960px;
+    height: 60px;
+    font-size: 15pt;
+    background-image: none;
+    background-color: blue;
+    position: relative;
 }
 
-
+._2nd_section h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 15pt;
+}
 
 ._3rd_section{
     display: flex;
@@ -56,21 +98,77 @@ a{
     height: 320px;
 }
 
-._6th_section{
+.title_coffee{
+    font-size: 24pt;
     text-align: center;
+    color:#8F6500;
+}
+
+.subtitle_coffee{
+    text-align: right;
+    font-size: 15pt;
+    color:#8F6500;
+}
+
+.title_coffee_center{
+    font-size: 24pt;
+    text-align: center;
+    color:#8F6500;
+}
+
+.subtitle_coffee_center{
+    text-align: left;
+    font-size: 15pt;
+    color:#8F6500;
+}
+
+.description{
+    font-size: 10pt;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+._6th_section{
+    width: 960px;
+    height: 180px;
+    text-align: center;
+    background-color: green;
+    position: relative;
+}
+
+._6th_section h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 24pt;
 }
 
 ._7th_section{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: gray;
 }
 
 .table_7th_section{
     display: flex;
+    
 }
 
 footer{
+    width: 960px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    background-color: brown;
+}
 }
