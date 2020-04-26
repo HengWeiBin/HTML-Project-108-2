@@ -16,30 +16,6 @@ body{
     margin: auto;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    position: fixed;
-    width: inherit;
-    z-index: 999;
-    background-color: black;
-    line-height: 0;
-}
-
-nav ul{
-    display: flex;
-}
-
-nav ul li{
-    padding: 0 10px;
-    display: block;
-}
-
-a{
-    text-decoration: none;
-}
-
 ._1st_section{
     width: 960px;
     height: 240px;
@@ -170,5 +146,4 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: brown;
-}
 }
