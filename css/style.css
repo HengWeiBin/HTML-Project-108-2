@@ -12,7 +12,7 @@ html{
 }
 
 .header{
-    display: none;
+    display: flex;
 }
 
 header{
