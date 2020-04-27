@@ -1,16 +1,13 @@
 $(document).ready(function(){
     slideHeader();
     document.addEventListener("scroll", function(){
-        let test = document.getElementById("fullscreen-hotzone");
         if(document.documentElement.scrollTop > 50){
-            $(".header").css("display", "none");
-            test.addEventListener("mouseover", headerSlideDown);
-            test.addEventListener("mouseout", headerSlideup);
+            $("header").css("display", "none");
+            $("header").addClass("header");
         }
         else{
-            $(".header").css("display", "flex");
-            test.removeEventListener("mouseover", headerSlideDown);
-            test.removeEventListener("mouseout", headerSlideup);
+            $("header").css("display", "flex");
+            $("header").removeClass("header");
         };
     });
 });
@@ -24,6 +21,8 @@ function slideHeader(){
     hotZone.style.margin = "0"
     hotZone.style.height= "100px"
     hotZone.style.width = "100%"
+    hotZone.addEventListener("mouseover", headerSlideDown);
+    hotZone.addEventListener("mouseout", headerSlideup);
     document.body.appendChild(hotZone);
 };
 

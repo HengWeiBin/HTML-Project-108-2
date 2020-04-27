@@ -19,7 +19,8 @@ body{
 ._1st_section{
     width: 960px;
     height: 240px;
-    background-color: red;
+    color: #FFECD5;
+    background-image: url(../images/coffee_main.png);
     position: relative;
     padding: 0;
 }
@@ -49,8 +50,9 @@ body{
     width: 960px;
     height: 60px;
     font-size: 15pt;
+    color: white;
     background-image: none;
-    background-color: blue;
+    background-color: rgb(35, 25, 0);
     position: relative;
 }
 
@@ -114,7 +116,7 @@ hr {
     width: 960px;
     height: 180px;
     text-align: center;
-    background-color: green;
+    background-image: url(../images/coffee_end.png);
     position: relative;
 }
 
@@ -126,24 +128,4 @@ hr {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 24pt;
-}
-
-._7th_section{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: gray;
-}
-
-.table_7th_section{
-    display: flex;
-    
-}
-
-footer{
-    width: 960px;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    background-color: brown;
 }
