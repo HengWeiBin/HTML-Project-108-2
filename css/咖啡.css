@@ -28,21 +28,23 @@ body{
 ._1st_section h1{
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 48pt;
+    font-family: 'Garamond',serif;
 }
 
 ._1st_section p{
     margin: 0;
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 24pt;
+    font-family: 'Noto Sans CJK TC Bold',sans-serif;
 }
 
 
@@ -69,39 +71,60 @@ body{
 ._3rd_section{
     display: flex;
     justify-content: space-between;
-}
-
-.pic_3rd_section{
-    width: 480px;
     height: 320px;
+    width: 960px;
 }
 
 .title_coffee{
-    font-size: 24pt;
-    text-align: center;
+    font-family: 'Garamond',serif;
     color:#8F6500;
+    font-size: 24pt;
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
 }
 
 .subtitle_coffee{
-    text-align: right;
+    font-family: 'Noto Sans CJK TC Bold',sans-serif;
+    color:#8F6500;
     font-size: 15pt;
-    color:#8F6500;
-}
-
-.title_coffee_center{
-    font-size: 24pt;
-    text-align: center;
-    color:#8F6500;
-}
-
-.subtitle_coffee_center{
-    text-align: left;
-    font-size: 15pt;
-    color:#8F6500;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
 }
 
 .description{
     font-size: 10pt;
+}
+
+._3rd_section .sec_odd .title_coffee{
+    text-align: left;
+    margin: 30px auto 10px 550px;
+}
+
+._3rd_section .sec_odd .subtitle_coffee{
+    text-align: right;
+    margin: 10px 90px 60px auto;
+}
+
+._3rd_section .sec_odd .description{
+    text-align: left;
+    margin: auto 40px auto 520px;
+}
+
+._3rd_section .sec_even .title_coffee{
+    text-align: right;
+    margin: 30px 550px 10px auto;
+}
+
+._3rd_section .sec_even .subtitle_coffee{
+    text-align: left;
+    margin: 10px auto 60px 90px;
+}
+
+._3rd_section .sec_even .description{
+    text-align: left;
+    margin: auto 520px auto 40px;
 }
 
 hr {
