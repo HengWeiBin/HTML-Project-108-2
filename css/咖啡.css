@@ -128,28 +128,4 @@ hr {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 24pt;
-<<<<<<< HEAD
 }
-
-._7th_section{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: gray;
-}
-
-.table_7th_section{
-    display: flex;
-    
-}
-
-footer{
-    width: 960px;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    background-color: brown;
-}
-=======
-}
->>>>>>> dad0a5000412450caea39d6aa539ced2495ec11f
