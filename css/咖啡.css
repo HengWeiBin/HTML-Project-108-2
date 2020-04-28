@@ -16,34 +16,11 @@ body{
     margin: auto;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    position: fixed;
-    width: inherit;
-    z-index: 999;
-    background-color: black;
-    line-height: 0;
-}
-
-nav ul{
-    display: flex;
-}
-
-nav ul li{
-    padding: 0 10px;
-    display: block;
-}
-
-a{
-    text-decoration: none;
-}
-
 ._1st_section{
     width: 960px;
     height: 240px;
-    background-color: red;
+    color: #FFECD5;
+    background-image: url(../images/coffee_main.png);
     position: relative;
     padding: 0;
 }
@@ -73,8 +50,9 @@ a{
     width: 960px;
     height: 60px;
     font-size: 15pt;
+    color: white;
     background-image: none;
-    background-color: blue;
+    background-color: rgb(35, 25, 0);
     position: relative;
 }
 
@@ -138,7 +116,7 @@ hr {
     width: 960px;
     height: 180px;
     text-align: center;
-    background-color: green;
+    background-image: url(../images/coffee_end.png);
     position: relative;
 }
 
@@ -150,6 +128,7 @@ hr {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 24pt;
+<<<<<<< HEAD
 }
 
 ._7th_section{
@@ -171,3 +150,6 @@ footer{
     justify-content: space-between;
     background-color: brown;
 }
+=======
+}
+>>>>>>> dad0a5000412450caea39d6aa539ced2495ec11f
