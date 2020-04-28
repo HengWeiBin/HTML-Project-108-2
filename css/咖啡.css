@@ -33,17 +33,19 @@ body{
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 48pt;
+    color: #FFECD5;
     font-family: 'Garamond',serif;
 }
 
 ._1st_section p{
     margin: 0;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 24pt;
+    color: #FFECD5;
     font-family: 'Noto Sans CJK TC Bold',sans-serif;
 }
 

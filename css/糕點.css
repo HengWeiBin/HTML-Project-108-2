@@ -14,6 +14,7 @@ html{
 ._1st_section{
     width: 960px;
     height: 240px;
+    color: #FFECD5;
     background-image: url(../images/pastry_main.png);
     position: relative;
 }
@@ -21,21 +22,25 @@ html{
 ._1st_section h1{
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 48pt;
+    color: #FFECD5;
+    font-family: 'Garamond',serif;
 }
 
 ._1st_section p{
     margin: 0;
     position: absolute;
-    top: 60%;
+    top: 85%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 24pt;
+    color: #FFECD5;
+    font-family: 'Noto Sans CJK TC Bold',sans-serif;
 }
 
 ._2nd_section{
@@ -164,4 +169,17 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: brown;
+}
+
+/* Kai ------------------------------- */
+.grid {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 60px 90px;
+}
+
+.grid_img{
+    width: 220px;
+    height: 180px;
 }
