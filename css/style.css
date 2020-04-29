@@ -333,3 +333,19 @@ footer p{
     text-align: center;
     position: relative;
 }
+
+.coffee_description_odd{
+    margin: 0;
+    font-family: 'Noto Sans CJK TC Regular', 'Microsoft Yahei', sans-serif;
+    font-size: 12pt;
+    color: black;
+    font-weight: normal;
+}
+
+.coffee_description_even{
+    font-family: 'Noto Sans CJK TC Regular', 'Microsoft Yahei', sans-serif;
+    font-size: 12pt;
+    color: black;
+    font-weight: normal;
+    width: 450px;
+}
