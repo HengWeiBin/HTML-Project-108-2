@@ -64,6 +64,7 @@ a{
 ._2nd_section{
     display: flex;
     overflow: hidden;
+    position: relative;
 }
 
 .pic_2nd_section{
@@ -72,11 +73,18 @@ a{
     color: #FFECD5;
     display: flex;
     justify-content: center;
+    transition: all 1s ease;
+}
+
+.pic_2nd_section:hover{
+    transform: scale(1.2);
 }
 
 .img_coffee{
     background-image: url(../images/top_coffee.png);
-    background-size: inherit;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .img_food{
@@ -97,13 +105,6 @@ a{
     align-items: center;
     align-self: flex-end;
 }
-
-.pic_des_2nd_section:hover .pic_2nd_section,
-.pic_des_2nd_section:focus .pic_2nd_section{
-    transform: scale(1.2);
-}
-
-
   
 .pic_2nd_section h2{
     font-family: 'Garamond', serif;
