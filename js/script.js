@@ -12,7 +12,7 @@ $(document).ready(function(){
     });
 
     fade($(".cheese_cake"), "../images/pastry_1.png", "../images/pastry_1-1.png");
-    fade($(".chocalate_cake"), "../images/pastry_2.png", "../images/pastry_2-1.png");
+    fade($(".chocolate_cake"), "../images/pastry_2.png", "../images/pastry_2-1.png");
     fade($(".orange_pie"), "../images/pastry_3.png", "../images/pastry_3-1.png");
     fade($(".cinnamon_roll"), "../images/pastry_4.png", "../images/pastry_4-1.png");
     fade($(".macaron"), "../images/pastry_5.png", "../images/pastry_5-1.png");
