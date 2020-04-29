@@ -99,12 +99,25 @@ hr {
     position: relative;
 }
 
+.item_pic2{
+    width: 220px;
+    height: 180px;
+    position: absolute;
+}
+
 .cheese_cake    {background-image: url(../images/pastry_1.png);}
 .chocolate_cake {background-image: url(../images/pastry_2.png);}
 .orange_pie     {background-image: url(../images/pastry_3.png);}
 .cinnamon_roll  {background-image: url(../images/pastry_4.png);}
 .macaron        {background-image: url(../images/pastry_5.png);}
 .pancake        {background-image: url(../images/pastry_6.png);}
+
+.cheese_cake2   {background-image: url(../images/pastry_1-1.png);}
+.chocolate_cake2{background-image: url(../images/pastry_2-1.png);}
+.orange_pie2    {background-image: url(../images/pastry_3-1.png);}
+.cinnamon_roll2 {background-image: url(../images/pastry_4-1.png);}
+.macaron2       {background-image: url(../images/pastry_5-1.png);}
+.pancake2       {background-image: url(../images/pastry_6-1.png);}
 
 ._3rd_section{
     width: 960px;
