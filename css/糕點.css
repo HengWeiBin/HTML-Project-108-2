@@ -9,6 +9,8 @@ html{
     width: 960px;
     height: auto;
     margin: auto;
+    background: rgb(255,236,213);
+    background: linear-gradient(90deg, rgba(255,236,213,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(255,236,213,1) 100%);
 }
 
 ._1st_section{
