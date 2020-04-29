@@ -45,6 +45,7 @@ header nav ul li{
     padding: 0 10px;
     display: block;
     text-align: center;
+    line-height: 2;
     border-left: 1px solid #FFECD5;
     padding: 0 20px;
 }
@@ -190,7 +191,7 @@ a{
 .foot_section img{
     width: 140px;
     height: 140px;
-    padding: 0px 0px 0px 90px;
+    padding: 0px 0px 0px 40px;
 }
 
 .foot_section hr{
