@@ -1,5 +1,5 @@
 html{
-    background-color: #FFECD5;
+    background-color: rgb(35, 25, 0);
 }
 
 *,*::before, *after{
@@ -67,25 +67,97 @@ a{
     position: relative;
 }
 
-.pic_2nd_section{
+.pic_2nd_section_coffee{
     width: calc(1/3 * 100%);
     height: 180px;
     color: #FFECD5;
-    display: flex;
-    justify-content: center;
-    transition: all 1s ease;
+    overflow: hidden;
+    position: relative;
 }
 
-.pic_2nd_section:hover{
-    transform: scale(1.2);
-}
-
-.img_coffee{
-    background-image: url(../images/top_coffee.png);
+.pic_des_2nd_section_coffee{
+    width: 100%;
+    height: 100%;
+    background: url(../images/top_coffee.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: all 1s ease;
 }
+
+.pic_des_2nd_section_coffee:hover{
+    transform: scale(1.2);
+}
+
+.pic_2nd_section_food{
+    width: calc(1/3 * 100%);
+    height: 180px;
+    color: #FFECD5;
+    overflow: hidden;
+    position: relative;
+}
+
+.pic_des_2nd_section_food{
+    width: 100%;
+    height: 100%;
+    background: url(../images/top_food.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+}
+
+.pic_des_2nd_section_food:hover{
+    transform: scale(1.2);
+}
+
+.pic_2nd_section_pastry{
+    width: calc(1/3 * 100%);
+    height: 180px;
+    color: #FFECD5;
+    overflow: hidden;
+    position: relative;
+}
+
+.pic_des_2nd_section_pastry{
+    width: 100%;
+    height: 100%;
+    background: url(../images/top_pastry.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+}
+
+.pic_des_2nd_section_pastry:hover{
+    transform: scale(1.2);
+}
+
+.text h2{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 24pt;
+    color: #FFECD5;
+    font-family: 'Garamond',sans-serif;
+}
+
+.text p{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 10pt;
+    color: #FFECD5;
+    font-family: 'Noto Sans CJK TC Regular',serif;
+}
+
+
 
 .img_food{
     background-image: url(../images/top_food.png);
