@@ -89,51 +89,22 @@ hr {
     background-color: #333; /* Modern Browsers */
 }
 
-.description{
+.item_description{
     font-size: 10pt;
 }
 
-.cheese_cake{
+.item_pic{
     width: 220px;
-    margin-left: 90px;
-    margin-right: 30px;
-    margin-bottom: 60px;
+    height: 180px;
+    position: relative;
 }
 
-.chocolate_cake{
-    width: 220px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 60px;
-}
-
-.orange_pie{
-    width: 220px;
-    margin-left: 30px;
-    margin-right: 90px;
-    margin-bottom: 60px;
-}
-
-.cinnamon_roll{
-    width: 220px;
-    margin-left: 90px;
-    margin-right: 30px;
-    margin-bottom: 60px;
-}
-
-.macron{
-    width: 220px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 60px;
-}
-
-.pancake{
-    width: 220px;
-    margin-left: 30px;
-    margin-right: 90px;
-    margin-bottom: 60px;
-}
+.cheese_cake    {background-image: url(../images/pastry_1.png);}
+.chocolate_cake {background-image: url(../images/pastry_2.png);}
+.orange_pie     {background-image: url(../images/pastry_3.png);}
+.cinnamon_roll  {background-image: url(../images/pastry_4.png);}
+.macaron        {background-image: url(../images/pastry_5.png);}
+.pancake        {background-image: url(../images/pastry_6.png);}
 
 ._3rd_section{
     width: 960px;

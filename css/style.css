@@ -233,9 +233,10 @@ a:hover{
 
 .description{
     font-family: 'Noto Sans CJK TC Regular', sans-serif;
-    font-size: 10pt;
+    font-size: 12pt;
     color: black;
     font-weight: normal;
+    width: 450px;
 }
 
 .desc_3rd_section   {align-items: flex-start;}
