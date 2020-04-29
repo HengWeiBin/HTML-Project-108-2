@@ -231,14 +231,9 @@ a{
 }
 
 .description{
-<<<<<<< HEAD
-    font-family: 'Noto Sans CJK TC Regular', sans-serif;
-    font-size: 12pt;
-=======
     font-family: 'Noto Sans CJK TC Regular', 'Microsoft Yahei', sans-serif;
     font-size: 12pt;
     margin: auto 30px;
->>>>>>> 7662514a3e225229351e98813ec27c211104ddc3
     color: black;
     font-weight: normal;
     width: 450px;
