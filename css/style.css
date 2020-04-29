@@ -336,11 +336,12 @@ footer p{
 }
 
 .coffee_description_odd{
-    margin: 0;
     font-family: 'Noto Sans CJK TC Regular', 'Microsoft Yahei', sans-serif;
     font-size: 12pt;
     color: black;
     font-weight: normal;
+    text-align: left;
+    margin: auto 40px auto 520px;
 }
 
 .coffee_description_even{
@@ -348,5 +349,6 @@ footer p{
     font-size: 12pt;
     color: black;
     font-weight: normal;
-    width: 450px;
+    text-align: left;
+    margin: auto 520px auto 40px;
 }

@@ -109,11 +109,6 @@ body{
     margin: 10px 90px 60px auto;
 }
 
-._3rd_section .sec_odd .description{
-    text-align: left;
-    margin: auto 40px auto 520px;
-}
-
 ._3rd_section .sec_even .title_coffee{
     text-align: right;
     margin: 30px 550px 10px auto;
@@ -122,11 +117,6 @@ body{
 ._3rd_section .sec_even .subtitle_coffee{
     text-align: left;
     margin: 10px auto 60px 90px;
-}
-
-._3rd_section .sec_even .description{
-    text-align: left;
-    margin: auto 520px auto 40px;
 }
 
 hr {
