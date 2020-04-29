@@ -28,25 +28,25 @@ body{
 ._1st_section h1{
     margin: 0;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    font-size: 48pt;
+    font-size: 60pt;
     color: #FFECD5;
-    font-family: 'Garamond',serif;
+    font-family: 'Amiri', 'Times New Roman', serif;
 }
 
 ._1st_section p{
     margin: 0;
     position: absolute;
-    top: 85%;
+    top: 80%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-size: 24pt;
     color: #FFECD5;
-    font-family: 'Noto Sans CJK TC Bold',sans-serif;
+    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
 }
 
 
@@ -78,18 +78,18 @@ body{
 }
 
 .title_coffee{
-    font-family: 'Garamond',serif;
+    font-family: 'Amiri',serif;
     color:#8F6500;
-    font-size: 24pt;
+    font-size: 32pt;
     display: flex;
     justify-content: space-between;
     width: 340px;
 }
 
 .subtitle_coffee{
-    font-family: 'Noto Sans CJK TC Bold',sans-serif;
+    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     color:#8F6500;
-    font-size: 15pt;
+    font-size: 16pt;
     display: flex;
     justify-content: space-between;
     width: 300px;
