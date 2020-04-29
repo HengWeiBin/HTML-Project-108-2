@@ -31,9 +31,7 @@ header h1{
     margin: 0;
 }
 
-<<<<<<< HEAD
 
-=======
 .top_function{
     display: flex;
     flex-direction: column;
@@ -57,7 +55,6 @@ header h1{
     height: 25px;
     width: 25px;
 }
->>>>>>> e29836d575ff27aba5ed5c2e61049b65e284e745
 
 header nav ul{
     display: flex;
