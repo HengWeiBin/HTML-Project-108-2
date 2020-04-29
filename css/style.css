@@ -121,6 +121,14 @@ a:hover{
     transform: scale(1.2);
 }
 
+.pic_2nd_section_coffee:hover .text h2{
+    color: #8F6500;
+}
+
+.pic_2nd_section_coffee:hover .text p{
+    color: #8F6500;
+}
+
 .pic_2nd_section_food{
     width: calc(1/3 * 100%);
     height: 180px;
@@ -141,6 +149,14 @@ a:hover{
 
 .pic_des_2nd_section_food:hover{
     transform: scale(1.2);
+}
+
+.pic_2nd_section_food:hover .text h2{
+    color: #8F6500;
+}
+
+.pic_2nd_section_food:hover .text p{
+    color: #8F6500;
 }
 
 .pic_2nd_section_pastry{
@@ -164,6 +180,15 @@ a:hover{
 .pic_des_2nd_section_pastry:hover{
     transform: scale(1.2);
 }
+
+.pic_2nd_section_pastry:hover .text h2{
+    color: #8F6500;
+}
+
+.pic_2nd_section_pastry:hover .text p{
+    color: #8F6500;
+}
+
 
 .text h2{
     margin: 0;
