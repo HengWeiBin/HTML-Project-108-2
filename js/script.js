@@ -12,6 +12,23 @@ $(document).ready(function(){
     });
 });
 
+/*
+$(document).ready(function(){
+    $('img').hover(function(){
+        $(this).css("cursor","pointer");
+        $(this).toggle({
+            effect: "scale",
+            percent: "90%"
+        },200);
+    }, function(){
+        $(this).toggle({
+            effect: "scale",
+            percent: "80%"
+        },200);
+    });
+});
+*/
+
 function slideHeader(){
     let hotZone = document.createElement("div"); 
     hotZone.id = "fullscreen-hotzone"
