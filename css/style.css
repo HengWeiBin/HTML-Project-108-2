@@ -48,8 +48,8 @@ header h1{
     color: #FFECD5;
     position: relative;
     top: 45%;
-    margin: 0;
-    margin-right: 15px;
+    margin: -2.5px;
+    margin-right: 5px;
 }
 
 .top_icon img{
