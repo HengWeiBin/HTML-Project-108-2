@@ -1,6 +1,3 @@
-html{
-}
-
 *,*::before, *after{
     box-sizing: inherit;
 }
@@ -14,7 +11,7 @@ html{
 }
 
 ._1st_section{
-    width: 960px;
+    width: 100%;
     height: 240px;
     color: #FFECD5;
     background-image: url(../images/pastry_main.png);
@@ -43,31 +40,6 @@ html{
     font-size: 24pt;
     color: #FFECD5;
     font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
-}
-
-._2nd_section{
-    display: flex;
-    justify-content: space-between;
-}
-
-._2nd_section_pic_top{
-    width: 780px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 90px;
-    margin-top: 60px;
-}
-
-._2nd_section_pic_bot{
-    width: 780px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 90px;
-}
-
-.pic_2nd_section{
-    width: 220px;
-    height: 180px;
 }
 
 .title_cake{
@@ -128,42 +100,10 @@ hr {
 .macaron2       {background-image: url(../images/pastry_5-1.png);}
 .pancake2       {background-image: url(../images/pastry_6-1.png);}
 
-._3rd_section{
-    width: 960px;
+.pic_pastry_end {
+    width: 100%;
     height: 180px;
     background-image: url(../images/pastry_end.png);
-    background-color: blue;
-    text-align: center;
-    position: relative;
-}
-
-._3rd_section h1{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 24pt;
-}
-
-._4th_section{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color:gray;
-}
-
-.table_4th_section{
-    display: flex;
-}
-
-footer{
-    width: 960px;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    background-color: brown;
 }
 
 /* Kai ------------------------------- */

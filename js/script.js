@@ -4,11 +4,11 @@ $(document).ready(function(){
     document.addEventListener("scroll", function(){
         if(document.documentElement.scrollTop > 50){
             $("header").slideUp();
-            $("header").addClass("header");
+            $("header").addClass("display_none");
         }
         else{
             $("header").slideDown();
-            $("header").removeClass("header");
+            $("header").removeClass("display_none");
         };
     });
 
@@ -20,18 +20,12 @@ $(document).ready(function(){
     fade($(".macaron"), "../images/pastry_5.png", "../images/pastry_5-1.png");
     fade($(".pancake"), "../images/pastry_6.png", "../images/pastry_6-1.png");
 
-    let requestUrl = "http://ip-api.com/json";
-    $.ajax({
-        url: requestUrl,
-        type: 'GET',
-        success: function(json){
-          console.log("My country is: " + json.country);
-          $(".location p").html(json.country);
+    //Country Code 顯示
+    $.get("https://ipinfo.io", function(response) {
+        console.log(response.city, response.country);
+        $(".location p").html(response.country);
         },
-        error: function(err){
-          console.log("Request failed, error= " + err);
-        }
-      });
+         "jsonp");
 });
 
 function slideHeader(){
@@ -49,14 +43,14 @@ function slideHeader(){
 };
 
 function headerSlideup(event){
-    $(".header").mouseleave(function(){
-        $(".header").slideUp();
+    $(".display_none").mouseleave(function(){
+        $(".display_none").slideUp();
     });
 };
 
 function headerSlideDown(event){
-    if($(".header").css("display") == "none"){
-        $(".header").slideDown();
+    if($(".display_none").css("display") == "none"){
+        $(".display_none").slideDown();
     }
 };
 

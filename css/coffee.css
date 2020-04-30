@@ -1,6 +1,3 @@
-html{
-}
-
 *,*::before, *after{
     box-sizing: inherit;
 }
@@ -17,7 +14,7 @@ body{
 }
 
 ._1st_section{
-    width: 960px;
+    width: 100%;
     height: 240px;
     color: #FFECD5;
     background-image: url(../images/coffee_main.png);
@@ -51,7 +48,7 @@ body{
 
 
 ._2nd_section{
-    width: 960px;
+    width: 100%;
     height: 60px;
     font-size: 15pt;
     color: white;
@@ -74,7 +71,7 @@ body{
     display: flex;
     justify-content: space-between;
     height: 320px;
-    width: 960px;
+    width: 100%;
 }
 
 .title_coffee{
@@ -127,20 +124,28 @@ hr {
     background-color: #333; /* Modern Browsers */
 }
 
-._6th_section{
-    width: 960px;
+.pic_enjoy_coffee{
+    width: 100%;
     height: 180px;
     text-align: center;
     background-image: url(../images/coffee_end.png);
     position: relative;
 }
 
-._6th_section h1{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 24pt;
+.coffee_description_odd{
+    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
+    font-size: 12pt;
+    color: black;
+    font-weight: normal;
+    text-align: left;
+    margin: auto 40px auto 520px;
+}
+
+.coffee_description_even{
+    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
+    font-size: 12pt;
+    color: black;
+    font-weight: normal;
+    text-align: left;
+    margin: auto 520px auto 40px;
 }
