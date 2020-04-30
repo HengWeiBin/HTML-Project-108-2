@@ -77,7 +77,7 @@ hr {
 .item_pic{
     width: 220px;
     height: 180px;
-    z-index: 999;
+    z-index: 99;
     position: relative;
 }
 
