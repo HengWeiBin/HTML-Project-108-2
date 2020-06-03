@@ -6,141 +6,153 @@
     <meta charset="UTF-8">
     <title>Kewa Café</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title icon-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Noto+Sans+TC&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="js/script.js"></script>
+
+    <!--Normalize css-->
     <link rel="stylesheet" href="css/normalize.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!--custom styles-->
     <link rel="stylesheet" href="css/coffee.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
-<body>
-    <div class="container">
+<body class="default-bg-color">
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-transulent-dark fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="img/header_logo.png" alt="logo"></a>
 
+        <!--漢堡選單-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <header>
+        <!--網頁選單-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!--top icon-->
+                        <div class="row justify-content-end navbar-nav nav-icon">
+                            <a href="#"><img src="img/icon_language.png" alt="location"></a>
+                            <div class="location">
+                                <p class="text-center"></p>
+                            </div>
+                            <a href="#"><img src="img/icon_where.png" alt="location"></a>
+                            <a href="#"><img src="img/icon_help.png" alt="help"></a>
+                        </div>
 
-            <!--logo-->
-            <div>
-                <h1><a href="index.html"><img src="images/header_logo.png" alt="Logo"></a></h1>
-            </div>
-
-            <div class="top_function">
-
-                <!--top icon-->
-                <div class="top_icon">
-                    <a href="#"><img src="images/icon_language.png" alt="location"></a>
-                    <div class="location">
-                        <p></p>
+                        <!--導航選單-->
+                        <ul class="row justify-content-end navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">最新消息</a></li>
+                            <li class="nav-item"><a class="nav-link" href="coffee.html">咖啡</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">輕食</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pastry.html">糕點</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">其他</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">活動專區</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">送禮專區</a></li>
+                        </ul>
                     </div>
-                    <a href="#"><img src="images/icon_where.png" alt="location"></a>
-                    <a href="#"><img src="images/icon_help.png" alt="help"></a>
-                </div>
-
-                <!--top menu-->
-                <nav>
-                    <ul>
-                        <li><a href="#">最新消息</a></li>
-                        <li><a href="coffee.html">咖啡</a></li>
-                        <li><a href="#">輕食</a></li>
-                        <li><a href="pastry.html">糕點</a></li>
-                        <li><a href="#">其他</a></li>
-                        <li><a href="#">活動專區</a></li>
-                        <li><a href="#">送禮專區</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </header>
-
-
-
-        <!--main-->
-        <div class="main">
-            <!--first section-->
-            <div class="_1st_section">
-                <h1>Coffee</h1>
-                <p>精選咖啡</p>
-            </div>
-
-            <!--second section-->
-            <div class="_2nd_section">
-                <h1>Kewa Café 典藏咖啡</h1>
-            </div>
-
-            <!--third section-->
-            <div class="_3rd_section">
-                <div class="sec_odd" style="background-image: url(./images/coffee_beans.png);">
-                    <!--title-->
-                    <h1 class="title_coffee">From Brazil</h1>
-                    <h1 class="subtitle_coffee">巴西咖啡豆</h1>
-                    <!--description-->
-                    <p class="coffee_description_odd">
-                        中南美洲是全球最大的咖啡豆產區。我們有選用巴西的咖啡豆。巴西有著獨有“軟豆”風味——酸度低,堅果味,巧克力甜香,酸苦均衡,醇厚度佳,通常帶有一些木味和土味。調製出來的咖啡風味柔順清甜。
-                    </p>
                 </div>
             </div>
+        </div>
+    </nav>
 
-            <!--fourth section-->
-            <div class="_3rd_section">
-                <div class="sec_even" style="background-image: url(./images/coffee_choose.png);">
-                    <!--title-->
-                    <h1 class="title_coffee">By Experts</h1>
-                    <h1 class="subtitle_coffee">專家精選</h1>
+    <!--main-->
+    <div class="container">
+        <!--first section-->
+        <div class="_1st_section">
+            <h1>Coffee</h1>
+            <p>精選咖啡</p>
+        </div>
 
-                    <!--description-->
-                    <p class="coffee_description_even">
-                        寮國的阿拉比卡咖啡是全世界最好的十二種咖啡之一。口感細膩濃郁,蔗糖般的甜度非常明顯不帶酸性,香味龐雜、適中的厚醇度餘韻帶著花香回甘。
-                    </p>
+        <!--second section-->
+        <div class="_2nd_section">
+            <h1>Kewa Café 典藏咖啡</h1>
+        </div>
+
+        <!--third section-->
+        <div class="_3rd_section">
+            <div class="sec_odd" style="background-image: url(./img/coffee_beans.png);">
+                <!--title-->
+                <h1 class="title_coffee">From Brazil</h1>
+                <h1 class="subtitle_coffee">巴西咖啡豆</h1>
+                <!--description-->
+                <p class="coffee_description_odd">
+                    中南美洲是全球最大的咖啡豆產區。我們有選用巴西的咖啡豆。巴西有著獨有“軟豆”風味——酸度低,堅果味,巧克力甜香,酸苦均衡,醇厚度佳,通常帶有一些木味和土味。調製出來的咖啡風味柔順清甜。
+                </p>
+            </div>
+        </div>
+
+        <!--fourth section-->
+        <div class="_3rd_section">
+            <div class="sec_even" style="background-image: url(./img/coffee_choose.png);">
+                <!--title-->
+                <h1 class="title_coffee">By Experts</h1>
+                <h1 class="subtitle_coffee">專家精選</h1>
+
+                <!--description-->
+                <p class="coffee_description_even">
+                    寮國的阿拉比卡咖啡是全世界最好的十二種咖啡之一。口感細膩濃郁,蔗糖般的甜度非常明顯不帶酸性,香味龐雜、適中的厚醇度餘韻帶著花香回甘。
+                </p>
+            </div>
+        </div>
+
+        <!--fifth section-->
+        <div class="_3rd_section">
+            <!--picture-->
+            <div class="sec_odd" style="background-image: url(./img/coffee_skill.png);">
+                <!--title-->
+                <h1 class="title_coffee">With Skills</h1>
+                <h1 class="subtitle_coffee">沖泡技術</h1>
+                <!--description-->
+                <p class="coffee_description_odd">
+                    這個看起來有點像醒酒器的工具,就是深受人們喜愛的Chemex手衝壺,採用一體式設計,形狀優雅大方,操作起來更是呈現出一種高端的美感與精緻。用這種方法沖泡的咖啡味道乾淨,濃稠度較低到中等,優雅地衝泡咖啡,感受美的視覺體驗後,點燃味蕾的激情！
+                </p>
+            </div>
+        </div>
+
+
+        <!--sixth section-->
+        <div class="pic_enjoy_coffee"></div>
+
+        <!--seventh section-->
+        <div class="row foot-bg align-items-center">
+            <div class="col-md-3">
+                <div class="row justify-content-center">
+                    <img src="img/footer_logo.png">
                 </div>
             </div>
+            <canvas id="line" class="position-absolute"></canvas>
 
-            <!--fifth section-->
-            <div class="_3rd_section">
-                <!--picture-->
-                <div class="sec_odd" style="background-image: url(./images/coffee_skill.png);">
-                    <!--title-->
-                    <h1 class="title_coffee">With Skills</h1>
-                    <h1 class="subtitle_coffee">沖泡技術</h1>
-                    <!--description-->
-                    <p class="coffee_description_odd">
-                        這個看起來有點像醒酒器的工具,就是深受人們喜愛的Chemex手衝壺,採用一體式設計,形狀優雅大方,操作起來更是呈現出一種高端的美感與精緻。用這種方法沖泡的咖啡味道乾淨,濃稠度較低到中等,優雅地衝泡咖啡,感受美的視覺體驗後,點燃味蕾的激情！
-                    </p>
-                </div>
-            </div>
-
-
-            <!--sixth section-->
-            <div class="pic_enjoy_coffee"></div>
-
-            <!--seventh section-->
-            <div class="foot_section">
-
-                <img src="images/footer_logo.png">
-                <hr>
-
-                <div class="table_foot_section">
-                    <ul>
+            <div class="col-md-9 table_foot_section">
+                <div class="row">
+                    <ul class="col-3">
                         <h2>認識我們</h2>
                         <li><a href="#">關於 Kewa cafe</a></li>
                         <li><a href="#">門店公告</a></li>
                         <li><a href="#">安全採購</a></li>
                     </ul>
 
-                    <ul>
+                    <ul class="col-3">
                         <h2>招募夥伴</h2>
                         <li><a href="#">成為我們的夥伴</a></li>
                         <li><a href="#">優待福利</a></li>
                         <li><a href="#">專業學習與職業晉升</a></li>
                     </ul>
 
-                    <ul>
+                    <ul class="col-3">
                         <h2>顧客關懷</h2>
                         <li><a href="#">常見問題</a></li>
                     </ul>
 
-                    <ul>
+                    <ul class="col-3">
                         <h2>關注我們</h2>
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#">Instagram</a></li>
@@ -154,22 +166,35 @@
 
 
 
-        <footer>
+        <footer class="row align-items-center">
 
             <!--bottom icon-->
-            <div class="foot_button">
-                <a href="#"><img src="images/icon_facebook.png"></a>
-                <a href="#"><img src="images/icon_twitter.png"></a>
-                <a href="#"><img src="images/icon_youtube.png"></a>
-                <a href="#"><img src="images/icon_instagram.png"></a>
+            <div class="col foot_button">
+                <a href="#"><img src="img/icon_facebook.png"></a>
+                <a href="#"><img src="img/icon_twitter.png"></a>
+                <a href="#"><img src="img/icon_youtube.png"></a>
+                <a href="#"><img src="img/icon_instagram.png"></a>
             </div>
 
+            <div class="col-md-auto"></div>
+
             <!--copyright-->
-            <p>
+            <p class="col-2">
                 Copyright 2020. All rights reserved.
             </p>
         </footer>
     </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- My JavaScript -->
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>

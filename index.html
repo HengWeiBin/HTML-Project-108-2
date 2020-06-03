@@ -6,157 +6,176 @@
 
     <meta charset="UTF-8">
     <title>Kewa Café</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Noto+Sans+TC&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+    <!--Normalize css-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!--custom styles-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="default-bg-color">
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-transulent-dark fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="img/header_logo.png" alt="logo"></a>
+
+        <!--漢堡選單-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--網頁選單-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!--top icon-->
+                        <div class="row justify-content-end navbar-nav nav-icon">
+                            <a href="#"><img src="img/icon_language.png" alt="location"></a>
+                            <div class="location">
+                                <p class="text-center"></p>
+                            </div>
+                            <a href="#"><img src="img/icon_where.png" alt="location"></a>
+                            <a href="#"><img src="img/icon_help.png" alt="help"></a>
+                        </div>
+
+                        <!--導航選單-->
+                        <ul class="row justify-content-end navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">最新消息</a></li>
+                            <li class="nav-item"><a class="nav-link" href="coffee.html">咖啡</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">輕食</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pastry.html">糕點</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">其他</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">活動專區</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">送禮專區</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
 
-        <header>
+        <!--first section-->
+        <div class="row">
+            <div class="poster bg-center"> </div>
+        </div>
 
-            <!--logo-->
-            <h1><a href="index.html"><img src="images/header_logo.png" alt="Logo"></a></h1>
 
-            <div class="top_function">
+        <!--second section-->
+        <div class="row">
 
-                <!--top icon-->
-                <div class="top_icon">
-                    <a href="#"><img src="images/icon_language.png" alt="location"></a>
-                    <div class="location">
-                        <p></p>
-                    </div>
-                    <a href="#"><img src="images/icon_where.png" alt="location"></a>
-                    <a href="#"><img src="images/icon_help.png" alt="help"></a>
+            <!--picture box-->
+            <a href="coffee.html" class="col-md-4 box_2nd_section  hover_coffee_color">
+                <div class="bg_pic_2nd_section bg-center hover_scale top_coffee"></div>
+                <div class="text">
+                    <h2>Coffee</h2>
+                    <p>精選咖啡</p>
                 </div>
+            </a>
 
-                <!--top menu-->
-                <nav>
-                    <ul>
-                        <li><a href="#">最新消息</a></li>
-                        <li><a href="coffee.html">咖啡</a></li>
-                        <li><a href="#">輕食</a></li>
-                        <li><a href="pastry.html">糕點</a></li>
-                        <li><a href="#">其他</a></li>
-                        <li><a href="#">活動專區</a></li>
-                        <li><a href="#">送禮專區</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </header>
-
-        <!--main-->
-        <div class="main">
-
-            <!--first section-->
-            <div class="poster">
-            </div>
-
-
-            <!--second section-->
-            <div class="_2nd_section">
-
-                <!--picture box-->
-                <a href="coffee.html" class="box_2nd_section  hover_coffee_color">
-                    <div class="bg_pic_2nd_section hover_scale top_coffee"></div>
-                    <div class="text">
-                        <h2>Coffee</h2>
-                        <p>精選咖啡</p>
-                    </div>
-                </a>
-
-                <a href="#" class="box_2nd_section hover_coffee_color">
-                    <div class="bg_pic_2nd_section hover_scale top_food"></div>
-                    <div class="text">
-                        <h2>Food</h2>
-                        <p>美味輕食</p>
-                    </div>
-                </a>
-
-                <a href="pastry.html" class="box_2nd_section hover_coffee_color">
-                    <div class="bg_pic_2nd_section hover_scale top_pastry"></div>
-                    <div class="text">
-                        <h2>Pastry</h2>
-                        <p>精緻糕點</p>
-                    </div>
-                </a>
-
-            </div>
-
-            <!--third section-->
-            <div class="_3rd_section">
-
-                <!--picture-->
-                <div class="pic_3rd_section"></div>
-
-                <div class="desc_section desc_3rd_section">
-                    <!--title-->
-                    <a href="#">
-                        <h1 class="align-self-start title">Campaign</h1>
-                        <h1 class="align-self-end subtitle">活動專區</h1>
-                    </a>
-                    <!--description-->
-                    <p class="text-align-start description">
-                        有數不清的超值優惠活動，任你挑選
-                    </p>
+            <a href="#" class="col-md-4 box_2nd_section hover_coffee_color">
+                <div class="bg_pic_2nd_section bg-center hover_scale top_food"></div>
+                <div class="text">
+                    <h2>Food</h2>
+                    <p>美味輕食</p>
                 </div>
+            </a>
 
-            </div>
-
-            <!--fourth section-->
-            <div class="_3rd_section _4th_section">
-
-                <div class="desc_section desc_4th_section">
-                    <!--title-->
-                    <a href="#">
-                        <h1 class="align-self-end title">Gift Catalog</h1>
-                        <h1 class="align-self-start subtitle">送禮專區</h1>
-                    </a>
-                    <!--description-->
-                    <p class="text-align-end description">
-                        禮物卡，免費飲料兌換禮券，母親節禮盒，情誼滿滿
-                    </p>
+            <a href="pastry.html" class="col-md-4 box_2nd_section hover_coffee_color">
+                <div class="bg_pic_2nd_section bg-center hover_scale top_pastry"></div>
+                <div class="text">
+                    <h2>Pastry</h2>
+                    <p>精緻糕點</p>
                 </div>
+            </a>
 
-                <!--picture-->
-                <div class="pic_3rd_section"></div>
+        </div>
 
+        <!--third section-->
+        <div class="row campaign_bg">
+
+            <!--displacement block-->
+            <div class="col-md-5"></div>
+
+            <div class="col-md-6">
+                <!--title-->
+                <a href="#">
+                    <h1 class="row title">Campaign</h1>
+                    <h1 class="row justify-content-end subtitle">活動專區</h1>
+                </a>
+                <!--description-->
+                <p class="row description">
+                    有數不清的超值優惠活動，任你挑選
+                </p>
             </div>
 
-            <!--fifth section-->
-            <div class="foot_section">
+            <!--displacement block-->
+            <div class="col-md-1"></div>
 
-                <img src="images/footer_logo.png">
-                <hr>
+        </div>
 
-                <div class="table_foot_section">
-                    <ul>
+        <!--fourth section-->
+        <div class="row gift_bg">
+
+            <div class="col-md-1"></div>
+            <!--displacement block-->
+
+            <div class="col-md-6">
+                <!--title-->
+                <a href="#">
+                    <h1 class="row justify-content-end title">Gift Catalog</h1>
+                    <h1 class="row subtitle">送禮專區</h1>
+                </a>
+                <!--description-->
+                <p class="row justify-content-end description">
+                    禮物卡，免費飲料兌換禮券，母親節禮盒，情誼滿滿
+                </p>
+            </div>
+
+            <div class="col-md-5"></div>
+            <!--displacement block-->
+
+        </div>
+
+        <!--fifth section-->
+        <div class="row foot-bg align-items-center">
+            <div class="col-md-3">
+                <div class="row justify-content-center">
+                    <img src="img/footer_logo.png">
+                </div>
+            </div>
+            <canvas id="line" class="position-absolute d-none"></canvas>
+
+            <div class="col-md-9 table_foot_section">
+                <div class="row">
+                    <ul class="col-3">
                         <h2>認識我們</h2>
                         <li><a href="#">關於 Kewa cafe</a></li>
                         <li><a href="#">門店公告</a></li>
                         <li><a href="#">安全採購</a></li>
                     </ul>
 
-                    <ul>
+                    <ul class="col-3">
                         <h2>招募夥伴</h2>
                         <li><a href="#">成為我們的夥伴</a></li>
                         <li><a href="#">優待福利</a></li>
                         <li><a href="#">專業學習與職業晉升</a></li>
                     </ul>
 
-                    <ul>
+                    <ul class="col-3">
                         <h2>顧客關懷</h2>
                         <li><a href="#">常見問題</a></li>
                     </ul>
 
-                    <ul>
+                    <ul class="col-3">
                         <h2>關注我們</h2>
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#">Instagram</a></li>
@@ -170,22 +189,35 @@
 
 
 
-        <footer>
+        <footer class="row align-items-center">
 
             <!--bottom icon-->
-            <div class="foot_button">
-                <a href="#"><img src="images/icon_facebook.png"></a>
-                <a href="#"><img src="images/icon_twitter.png"></a>
-                <a href="#"><img src="images/icon_youtube.png"></a>
-                <a href="#"><img src="images/icon_instagram.png"></a>
+            <div class="col foot_button">
+                <a href="#"><img src="img/icon_facebook.png"></a>
+                <a href="#"><img src="img/icon_twitter.png"></a>
+                <a href="#"><img src="img/icon_youtube.png"></a>
+                <a href="#"><img src="img/icon_instagram.png"></a>
             </div>
 
+            <div class="col-md-auto"></div>
+
             <!--copyright-->
-            <p>
+            <p class="col-md-2">
                 Copyright 2020. All rights reserved.
             </p>
         </footer>
     </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- My JavaScript -->
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>

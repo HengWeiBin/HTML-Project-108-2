@@ -4,11 +4,11 @@ $(document).ready(function(){
     document.addEventListener("scroll", function(){
         if(document.documentElement.scrollTop > 50){
             $("header").slideUp();
-            $("header").addClass("display_none");
+            $("header").addClass("d-none");
         }
         else{
             $("header").slideDown();
-            $("header").removeClass("display_none");
+            $("header").removeClass("d-none");
         };
     });
 
@@ -26,6 +26,19 @@ $(document).ready(function(){
         $(".location p").html(response.country);
         },
          "jsonp");
+         
+    //footer 畫綫
+    let canvas = document.getElementById('line');
+    let ctx = canvas.getContext("2d");
+    
+    canvas.height = 150;
+    canvas.width = 300;
+
+    ctx.beginPath()
+    ctx.moveTo(280, 20)
+    ctx.lineTo(280, 130)
+    ctx.strokeStyle="white"
+    ctx.stroke()
 });
 
 function slideHeader(){

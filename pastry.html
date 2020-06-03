@@ -7,154 +7,165 @@
     <meta charset="UTF-8">
     <title>Kewa Café</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title icon-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Noto+Sans+TC&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="js/script.js"></script>
+
+    <!--Normalize css-->
     <link rel="stylesheet" href="css/normalize.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!--custom styles-->
     <link rel="stylesheet" href="css/pastry.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
-<body>
-    <div class="container">
+<body class="default-bg-color">
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-transulent-dark fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="img/header_logo.png" alt="logo"></a>
 
+        <!--漢堡選單-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <header>
+        <!--網頁選單-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!--top icon-->
+                        <div class="row justify-content-end navbar-nav nav-icon">
+                            <a href="#"><img src="img/icon_language.png" alt="location"></a>
+                            <div class="location">
+                                <p class="text-center"></p>
+                            </div>
+                            <a href="#"><img src="img/icon_where.png" alt="location"></a>
+                            <a href="#"><img src="img/icon_help.png" alt="help"></a>
+                        </div>
 
-            <!--logo-->
-            <div>
-                <h1><a href="index.html"><img src="images/header_logo.png" alt="Logo"></a></h1>
-            </div>
-
-            <div class="top_function">
-
-                <!--top icon-->
-                <div class="top_icon">
-                    <a href="#"><img src="images/icon_language.png" alt="location"></a>
-                    <div class="location">
-                        <p></p>
+                        <!--導航選單-->
+                        <ul class="row justify-content-end navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">最新消息</a></li>
+                            <li class="nav-item"><a class="nav-link" href="coffee.html">咖啡</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">輕食</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pastry.html">糕點</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">其他</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">活動專區</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">送禮專區</a></li>
+                        </ul>
                     </div>
-                    <a href="#"><img src="images/icon_where.png" alt="location"></a>
-                    <a href="#"><img src="images/icon_help.png" alt="help"></a>
                 </div>
-
-                <!--top menu-->
-                <nav>
-                    <ul>
-                        <li><a href="#">最新消息</a></li>
-                        <li><a href="coffee.html">咖啡</a></li>
-                        <li><a href="#">輕食</a></li>
-                        <li><a href="pastry.html">糕點</a></li>
-                        <li><a href="#">其他</a></li>
-                        <li><a href="#">活動專區</a></li>
-                        <li><a href="#">送禮專區</a></li>
-                    </ul>
-                </nav>
             </div>
+        </div>
+    </nav>
 
-        </header>
+    <div class="container bg-pastry-main">
+        <!--first section-->
+        <div class="_1st_section">
+            <h1>Pastry</h1>
+            <p>精緻糕點</p>
+        </div>
 
-
-
-        <!--main-->
-        <div class="main">
-            <!--first section-->
-            <div class="_1st_section">
-                <h1>Pastry</h1>
-                <p>精緻糕點</p>
-            </div>
-
-            <!--second section-->
-            <div class="grid">
-                <div class="item">
-                    <div class="item_pic2 cheese_cake2"></div>
-                    <div class="item_pic cheese_cake"></div>
-                    <h1 class="title_cake">Cheese Cake</h1>
-                    <h1 class="subtitle_cake">起司蛋糕</h1>
-                    <hr>
-                    <p class="item_material">(餅乾/奶油/乳酪/糖/雞蛋)</p>
-                    <p class="item_description">香濃的起司味道,讓你流連忘返。</p>
-                </div>
-                <div class="item">
-                    <div class="item_pic2 chocolate_cake2"></div>
-                    <div class="item_pic chocolate_cake"></div>
-                    <h1 class="title_cake">Chocalate Cake</h1>
-                    <h1 class="subtitle_cake">巧克力蛋糕</h1>
-                    <hr>
-                    <p class="item_material">(巧克力/鮮奶油/可可粉/糖/蛋/麵粉)</p>
-                    <p class="item_description">濃郁厚重的巧克力口味巧妙融合蛋糕的經典美味,完美而細膩的口感釋出在味蕾中。</p>
-                </div>
-                <div class="item">
-                    <div class="item_pic2 orange_pie2"></div>
-                    <div class="item_pic orange_pie"></div>
-                    <h1 class="title_cake">Orange Pie</h1>
-                    <h1 class="subtitle_cake">柳橙香派</h1>
-                    <hr>
-                    <p class="item_material">(麵粉/奶油/糖/雞蛋/柳橙汁和果肉)</p>
-                    <p class="item_description">現榨的柳橙香味和濃密的內餡口感是這款甜點最吸引人的地方！</p>
-                </div>
-                <div class="item">
-                    <div class="item_pic2 cinnamon_roll2"></div>
-                    <div class="item_pic cinnamon_roll"></div>
-                    <h1 class="title_cake">Cinnamon Roll</h1>
-                    <h1 class="subtitle_cake">肉桂卷</h1>
-                    <hr>
-                    <p class="item_material">(肉桂/麵粉/奶油/砂糖/核桃)</p>
-                    <p class="item_description">濃濃的核桃和肉桂的香氣，讓您意猶未盡。</p>
-                </div>
-                <div class="item">
-                    <div class="item_pic2 macaron2"></div>
-                    <div class="item_pic macaron"></div>
-                    <h1 class="title_cake">Macaron</h1>
-                    <h1 class="subtitle_cake">馬卡龍</h1>
-                    <hr>
-                    <p class="item_material">(蛋白/杏仁粉/砂糖/糖霜/奶油)</p>
-                    <p class="item_description">精緻小巧,外酥內軟,口感豐富,色彩繽紛的它，絕對是你最好的選擇之一。</p>
-                </div>
-                <div class="item">
-                    <div class="item_pic2 pancake2"></div>
-                    <div class="item_pic pancake"></div>
-                    <h1 class="title_cake">Pancake</h1>
-                    <h1 class="subtitle_cake">薄煎餅</h1>
-                    <hr>
-                    <p class="item_material">(麵粉/砂糖/奶油/雞蛋/牛奶)</p>
-                    <p class="item_description">綿密的口感和濃郁果醬的絕美搭配。</p>
-                </div>
-
-
-            </div>
-
-            <!--third section-->
-            <div class="pic_pastry_end"></div>
-
-            <!--fourth section-->
-            <div class="foot_section">
-
-                <img src="images/footer_logo.png">
+        <!--second section-->
+        <div class="grid">
+            <div class="item">
+                <div class="item_pic2 cheese_cake2"></div>
+                <div class="item_pic cheese_cake"></div>
+                <h1 class="title_cake">Cheese Cake</h1>
+                <h1 class="subtitle_cake">起司蛋糕</h1>
                 <hr>
+                <p class="item_material">(餅乾/奶油/乳酪/糖/雞蛋)</p>
+                <p class="item_description">香濃的起司味道,讓你流連忘返。</p>
+            </div>
+            <div class="item">
+                <div class="item_pic2 chocolate_cake2"></div>
+                <div class="item_pic chocolate_cake"></div>
+                <h1 class="title_cake">Chocalate Cake</h1>
+                <h1 class="subtitle_cake">巧克力蛋糕</h1>
+                <hr>
+                <p class="item_material">(巧克力/鮮奶油/可可粉/糖/蛋/麵粉)</p>
+                <p class="item_description">濃郁厚重的巧克力口味巧妙融合蛋糕的經典美味,完美而細膩的口感釋出在味蕾中。</p>
+            </div>
+            <div class="item">
+                <div class="item_pic2 orange_pie2"></div>
+                <div class="item_pic orange_pie"></div>
+                <h1 class="title_cake">Orange Pie</h1>
+                <h1 class="subtitle_cake">柳橙香派</h1>
+                <hr>
+                <p class="item_material">(麵粉/奶油/糖/雞蛋/柳橙汁和果肉)</p>
+                <p class="item_description">現榨的柳橙香味和濃密的內餡口感是這款甜點最吸引人的地方！</p>
+            </div>
+            <div class="item">
+                <div class="item_pic2 cinnamon_roll2"></div>
+                <div class="item_pic cinnamon_roll"></div>
+                <h1 class="title_cake">Cinnamon Roll</h1>
+                <h1 class="subtitle_cake">肉桂卷</h1>
+                <hr>
+                <p class="item_material">(肉桂/麵粉/奶油/砂糖/核桃)</p>
+                <p class="item_description">濃濃的核桃和肉桂的香氣，讓您意猶未盡。</p>
+            </div>
+            <div class="item">
+                <div class="item_pic2 macaron2"></div>
+                <div class="item_pic macaron"></div>
+                <h1 class="title_cake">Macaron</h1>
+                <h1 class="subtitle_cake">馬卡龍</h1>
+                <hr>
+                <p class="item_material">(蛋白/杏仁粉/砂糖/糖霜/奶油)</p>
+                <p class="item_description">精緻小巧,外酥內軟,口感豐富,色彩繽紛的它，絕對是你最好的選擇之一。</p>
+            </div>
+            <div class="item">
+                <div class="item_pic2 pancake2"></div>
+                <div class="item_pic pancake"></div>
+                <h1 class="title_cake">Pancake</h1>
+                <h1 class="subtitle_cake">薄煎餅</h1>
+                <hr>
+                <p class="item_material">(麵粉/砂糖/奶油/雞蛋/牛奶)</p>
+                <p class="item_description">綿密的口感和濃郁果醬的絕美搭配。</p>
+            </div>
 
-                <div class="table_foot_section">
-                    <ul>
+
+        </div>
+
+        <!--third section-->
+        <div class="pic_pastry_end"></div>
+
+        <!--fourth section-->
+        <div class="row foot-bg align-items-center">
+            <div class="col-md-3">
+                <div class="row justify-content-center">
+                    <img src="img/footer_logo.png">
+                </div>
+            </div>
+            <canvas id="line" class="position-absolute"></canvas>
+
+            <div class="col-md-9 table_foot_section">
+                <div class="row">
+                    <ul class="col-3">
                         <h2>認識我們</h2>
                         <li><a href="#">關於 Kewa cafe</a></li>
                         <li><a href="#">門店公告</a></li>
                         <li><a href="#">安全採購</a></li>
                     </ul>
 
-                    <ul>
+                    <ul class="col-3">
                         <h2>招募夥伴</h2>
                         <li><a href="#">成為我們的夥伴</a></li>
                         <li><a href="#">優待福利</a></li>
                         <li><a href="#">專業學習與職業晉升</a></li>
                     </ul>
 
-                    <ul>
+                    <ul class="col-3">
                         <h2>顧客關懷</h2>
                         <li><a href="#">常見問題</a></li>
                     </ul>
 
-                    <ul>
+                    <ul class="col-3">
                         <h2>關注我們</h2>
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#">Instagram</a></li>
@@ -168,22 +179,36 @@
 
 
 
-        <footer>
+        <footer class="row align-items-center">
 
             <!--bottom icon-->
-            <div class="foot_button">
-                <a href="#"><img src="images/icon_facebook.png"></a>
-                <a href="#"><img src="images/icon_twitter.png"></a>
-                <a href="#"><img src="images/icon_youtube.png"></a>
-                <a href="#"><img src="images/icon_instagram.png"></a>
+            <div class="col foot_button">
+                <a href="#"><img src="img/icon_facebook.png"></a>
+                <a href="#"><img src="img/icon_twitter.png"></a>
+                <a href="#"><img src="img/icon_youtube.png"></a>
+                <a href="#"><img src="img/icon_instagram.png"></a>
             </div>
 
+            <div class="col-md-auto"></div>
+
             <!--copyright-->
-            <p>
+            <p class="col-2">
                 Copyright 2020. All rights reserved.
             </p>
         </footer>
     </div>
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- My JavaScript -->
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
