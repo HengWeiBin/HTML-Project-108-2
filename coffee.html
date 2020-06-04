@@ -67,19 +67,25 @@
     <!--main-->
     <div class="container">
         <!--first section-->
-        <div class="_1st_section">
-            <h1>Coffee</h1>
-            <p>精選咖啡</p>
+        <div class="row">
+            <div class="container sub-pg-header coffee_main">
+                <div class="row justify-content-center align-items-end h-75">
+                    <h1>Coffee</h1>
+                </div>
+                <div class="row justify-content-center align-items-center h-25">
+                    <p>精選咖啡</p>
+                </div>
+            </div>
         </div>
 
         <!--second section-->
-        <div class="_2nd_section">
+        <div class="row align-items-center justify-content-center coffee-subtitle">
             <h1>Kewa Café 典藏咖啡</h1>
         </div>
 
         <!--third section-->
-        <div class="_3rd_section">
-            <div class="sec_odd" style="background-image: url(./img/coffee_beans.png);">
+        <div class="row _3rd_section">
+            <div class="sec_odd bazil-coffee-bg">
                 <!--title-->
                 <h1 class="title_coffee">From Brazil</h1>
                 <h1 class="subtitle_coffee">巴西咖啡豆</h1>
@@ -91,8 +97,8 @@
         </div>
 
         <!--fourth section-->
-        <div class="_3rd_section">
-            <div class="sec_even" style="background-image: url(./img/coffee_choose.png);">
+        <div class="row _3rd_section">
+            <div class="sec_even coffee-choose-bg">
                 <!--title-->
                 <h1 class="title_coffee">By Experts</h1>
                 <h1 class="subtitle_coffee">專家精選</h1>
@@ -105,9 +111,9 @@
         </div>
 
         <!--fifth section-->
-        <div class="_3rd_section">
+        <div class="row _3rd_section">
             <!--picture-->
-            <div class="sec_odd" style="background-image: url(./img/coffee_skill.png);">
+            <div class="sec_odd coffee-skill-bg">
                 <!--title-->
                 <h1 class="title_coffee">With Skills</h1>
                 <h1 class="subtitle_coffee">沖泡技術</h1>
@@ -120,7 +126,7 @@
 
 
         <!--sixth section-->
-        <div class="pic_enjoy_coffee"></div>
+        <div class="row pic_enjoy_coffee"></div>
 
         <!--seventh section-->
         <div class="row foot-bg align-items-center">
@@ -129,7 +135,7 @@
                     <img src="img/footer_logo.png">
                 </div>
             </div>
-            <canvas id="line" class="position-absolute"></canvas>
+            <canvas id="line" class="position-absolute d-none"></canvas>
 
             <div class="col-md-9 table_foot_section">
                 <div class="row">

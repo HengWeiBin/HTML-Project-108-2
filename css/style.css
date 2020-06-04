@@ -55,6 +55,21 @@
     padding: 5px;
 }
 
+.sub-pg-header{
+    height: 240px;
+    color: #FFECD5;
+}
+
+.sub-pg-header h1{
+    font-size: 60pt;
+    font-family: 'Amiri', 'Times New Roman', serif;
+}
+
+.sub-pg-header p{
+    font-size: 24pt;
+    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
+}
+
 .poster{
     width: 100%;
     height: 500px;

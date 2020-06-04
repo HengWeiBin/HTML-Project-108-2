@@ -2,41 +2,9 @@
     box-sizing: inherit;
 }
 
-.bg-pastry-main{
+.gradient-pastry{
     background: rgb(255,236,213);
     background: linear-gradient(90deg, rgba(255,236,213,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(255,236,213,1) 100%);
-}
-
-._1st_section{
-    width: 100%;
-    height: 240px;
-    color: #FFECD5;
-    background-image: url(../img/pastry_main.png);
-    position: relative;
-}
-
-._1st_section h1{
-    margin: 0;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 60pt;
-    color: #FFECD5;
-    font-family: 'Amiri', 'Times New Roman', serif;
-}
-
-._1st_section p{
-    margin: 0;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 24pt;
-    color: #FFECD5;
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
 }
 
 .title_cake{
@@ -50,14 +18,6 @@
     font-size: 15pt;
     color: #8F6500;
     text-align: right;
-}
-
-hr {
-    border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
 }
 
 .item_material{
@@ -85,6 +45,8 @@ hr {
     position: absolute;
 }
 
+.pastry_main    {background-image: url(../img/pastry_main.png);}
+
 .cheese_cake    {background-image: url(../img/pastry_1.png);}
 .chocolate_cake {background-image: url(../img/pastry_2.png);}
 .orange_pie     {background-image: url(../img/pastry_3.png);}
@@ -100,7 +62,6 @@ hr {
 .pancake2       {background-image: url(../img/pastry_6-1.png);}
 
 .pic_pastry_end {
-    width: 100%;
     height: 180px;
     background-image: url(../img/pastry_end.png);
 }

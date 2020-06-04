@@ -2,65 +2,23 @@
     box-sizing: inherit;
 }
 
-._1st_section{
-    width: 100%;
-    height: 240px;
-    color: #FFECD5;
-    background-image: url(../img/coffee_main.png);
-    position: relative;
-    padding: 0;
-}
-
-._1st_section h1{
-    margin: 0;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 60pt;
-    color: #FFECD5;
-    font-family: 'Amiri', 'Times New Roman', serif;
-}
-
-._1st_section p{
-    margin: 0;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 24pt;
-    color: #FFECD5;
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
-}
-
-
-._2nd_section{
-    width: 100%;
+.coffee-subtitle{
     height: 60px;
-    font-size: 15pt;
     color: white;
-    background-image: none;
-    background-color: rgb(35, 25, 0);
-    position: relative;
 }
 
-._2nd_section h1{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+.coffee-subtitle h1{
     font-size: 15pt;
 }
+
+.coffee_main        {background-image: url(../img/coffee_main.png);}
+
+.bazil-coffee-bg    {background-image: url(../img/coffee_beans.png);}
+.coffee-choose-bg   {background-image: url(../img/coffee_choose.png);}
+.coffee-skill-bg    {background-image: url(../img/coffee_skill.png);}
 
 ._3rd_section{
-    display: flex;
-    justify-content: space-between;
     height: 320px;
-    width: 100%;
 }
 
 .title_coffee{
@@ -105,20 +63,9 @@
     margin: 15px auto 60px 90px;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
-}
-
 .pic_enjoy_coffee{
-    width: 100%;
     height: 180px;
-    text-align: center;
     background-image: url(../img/coffee_end.png);
-    position: relative;
 }
 
 .coffee_description_odd{

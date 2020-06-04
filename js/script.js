@@ -1,17 +1,4 @@
 $(document).ready(function(){
-    //header滑動效果
-    slideHeader();
-    document.addEventListener("scroll", function(){
-        if(document.documentElement.scrollTop > 50){
-            $("header").slideUp();
-            $("header").addClass("d-none");
-        }
-        else{
-            $("header").slideDown();
-            $("header").removeClass("d-none");
-        };
-    });
-
     //糕點圖片變化效果
     fade($(".cheese_cake"), "../images/pastry_1.png", "../images/pastry_1-1.png");
     fade($(".chocolate_cake"), "../images/pastry_2.png", "../images/pastry_2-1.png");
@@ -40,32 +27,6 @@ $(document).ready(function(){
     ctx.strokeStyle="white"
     ctx.stroke()
 });
-
-function slideHeader(){
-    let hotZone = document.createElement("div"); 
-    hotZone.id = "fullscreen-hotzone"
-    hotZone.style.position = "fixed"
-    hotZone.style.top = "0"
-    hotZone.style.left = "0"
-    hotZone.style.margin = "0"
-    hotZone.style.height= "100px"
-    hotZone.style.width = "100%"
-    hotZone.addEventListener("mouseover", headerSlideDown);
-    hotZone.addEventListener("mouseout", headerSlideup);
-    document.body.appendChild(hotZone);
-};
-
-function headerSlideup(event){
-    $(".display_none").mouseleave(function(){
-        $(".display_none").slideUp();
-    });
-};
-
-function headerSlideDown(event){
-    if($(".display_none").css("display") == "none"){
-        $(".display_none").slideDown();
-    }
-};
 
 function fade(element, pic_Origin, pic_Transform){
     let url_Origin = "url(" + pic_Origin + ")";
