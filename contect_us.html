@@ -51,7 +51,7 @@
                             <li class="nav-item"><a class="nav-link" href="coffee.html">咖啡</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">輕食</a></li>
                             <li class="nav-item"><a class="nav-link" href="pastry.html">糕點</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">活動專區</a></li>
+                            <li class="nav-item"><a class="nav-link" href="campaign.html">活動專區</a></li>
                             <li class="nav-item"><a class="nav-link" href="contect_us.html">聯絡我們</a></li>
                         </ul>
                     </div>
@@ -66,21 +66,47 @@
         <div class="contact">
             <div class="row">
                 <div class="col-12">
-                    <div>
-                        <p class="title text-center">聯絡我們</p>
-                        <hr class="title_line">
+                    
+                    <!--first section-->
+                    <div class="row">
+                        <div class="container sub-pg-header">
+                            <div class="row justify-content-center align-items-end h-75">
+                                <h1>Contact Us</h1>
+                            </div>
+                            <div class="row justify-content-center align-items-center h-25">
+                                <p>聯絡我們</p>
+                            </div>
+                        </div>
                     </div>
+                    
+                    <!--form section-->
                     <div class="form">
+
+                        <!--person data-->
                         <div>
-                            <input type="text" placeholder="你的名字">
-                            <input type="text" placeholder="你的信箱">
-                            <input type="text" placeholder="聯絡電話">
+                            <!--name-->
+                            <label for="name">你的名字</label>
+                            <input type="text" name="name" placeholder="你的名字"><br>
+
+                            <!--email-->
+                            <label for="email">你的信箱</label>
+                            <input type="text" name="email" placeholder="你的信箱">
+
+                            <!--phone-->
+                            <label for="phone">聯絡電話</label>
+                            <input type="text" name="phone" placeholder="聯絡電話">
                         </div>
+
+                        <!--person suggestion-->
                         <div>
-                            <textarea placeholder="內容"></textarea>
+                            <label for="content">內容</label>
+                            <textarea name="content" placeholder="內容"></textarea>
                         </div>
+
+                        <!--send-->
                         <div class="text-center"><input type="submit" value="送出"></div>
                     </div>
+
                 </div>
             </div>
         </div>

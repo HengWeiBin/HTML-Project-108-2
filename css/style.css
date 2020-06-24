@@ -199,7 +199,8 @@ a:hover, .table_foot_section ul li a:hover,
 
 .contact {
 	height:750px;
-	padding-top: 25px;
+    padding-top: 25px;
+    margin-bottom: 200px;
 }
 
 .contact .title {
@@ -208,7 +209,7 @@ a:hover, .table_foot_section ul li a:hover,
 
 .contact .form {
 	max-width: 600px;
-	margin:0 auto;
+	margin:25px auto;
 	padding: 0 30px;
 	color:#ffffff;
 }
@@ -234,7 +235,7 @@ a:hover, .table_foot_section ul li a:hover,
 	padding: 10px;
 	resize: vertical;
 	color: #000000;
-	margin:7.5px 0;
+	margin:10px 0;
 }
 
 input[type=submit] {
