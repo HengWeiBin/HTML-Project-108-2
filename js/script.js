@@ -26,6 +26,7 @@ $(document).ready(function(){
     ctx.lineTo(280, 130)
     ctx.strokeStyle="white"
     ctx.stroke()
+
 });
 
 function fade(element, pic_Origin, pic_Transform){
@@ -44,3 +45,5 @@ function fade(element, pic_Origin, pic_Transform){
         });
     });
 };
+
+
