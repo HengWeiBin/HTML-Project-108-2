@@ -24,11 +24,12 @@
     <nav class="container navbar navbar-expand-lg navbar-dark bg-transulent-dark fixed-top">
 
         <!--漢堡選單-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler third-button" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <div class="animated-icon3"><span></span><span></span><span></span></div>
         </button>
-        
+
         <a class="navbar-brand" href="index.html"><img src="img/header_logo.png" alt="logo"></a>
 
         <!--網頁選單-->
@@ -64,7 +65,9 @@
 
         <!--first section-->
         <div class="row">
-            <div class="poster bg-center"> </div>
+            <div class="poster bg-center row justify-content-center">
+                <a class="row align-self-end"><img src="./img/arrow_down.png"></a>
+            </div>
         </div>
 
 
@@ -151,7 +154,7 @@
                     <img src="img/footer_logo.png">
                 </div>
             </div>
-            <canvas id="line" class="position-absolute d-none"></canvas>
+            <canvas id="line"></canvas>
 
             <div class="col-md-9 table_foot_section">
                 <div class="row">
@@ -215,6 +218,8 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!--WOW.js-->
+    <script type="text/javascript" src="js/wow.min.js"></script>
     <!-- My JavaScript -->
     <script type="text/javascript" src="js/script.js"></script>
 </body>
