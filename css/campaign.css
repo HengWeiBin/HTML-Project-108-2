@@ -7,23 +7,10 @@
     background: linear-gradient(90deg, rgba(255,236,213,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(255,236,213,1) 100%);
 }
 
-.title_cake{
+.title_campaign{
     font-family: 'Amiri', 'Times New Roman', serif;
     font-size: 24pt;
     color: #8F6500;
-}
-
-.subtitle_cake{
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
-    font-size: 15pt;
-    color: #8F6500;
-    text-align: right;
-}
-
-.item_material{
-    font-size: 12pt;
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
-    font-style: italic;
 }
 
 .item_description{
@@ -31,50 +18,46 @@
     font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
 }
 
-.item_pic{
-    width: 220px;
-    height: 180px;
-    z-index: 99;
-    position: relative;
+@media (min-width: 320px){
+    .item_pic{
+        width: 250px;
+        height: 250px;
+        z-index: 99;
+        position: relative;
+    }
+    
 }
 
-.item_pic2{
-    width: 220px;
-    height: 180px;
-    z-index: 5;
-    position: absolute;
+@media (min-width: 768px){
+    .item_pic{
+        width: 690px;
+        height: 300px;
+        z-index: 99;
+        position: relative;
+    }
+    
 }
 
-.campaign_main    {background-color:red;}
-
-.cheese_cake    {background-image: url(../img/pastry_1.png);}
-.chocolate_cake {background-image: url(../img/pastry_2.png);}
-.orange_pie     {background-image: url(../img/pastry_3.png);}
-.cinnamon_roll  {background-image: url(../img/pastry_4.png);}
-.macaron        {background-image: url(../img/pastry_5.png);}
-.pancake        {background-image: url(../img/pastry_6.png);}
-
-.cheese_cake2   {background-image: url(../img/pastry_1-1.png);}
-.chocolate_cake2{background-image: url(../img/pastry_2-1.png);}
-.orange_pie2    {background-image: url(../img/pastry_3-1.png);}
-.cinnamon_roll2 {background-image: url(../img/pastry_4-1.png);}
-.macaron2       {background-image: url(../img/pastry_5-1.png);}
-.pancake2       {background-image: url(../img/pastry_6-1.png);}
-
-.pic_pastry_end {
-    height: 180px;
-    background-image: url(../img/pastry_end.png);
+@media (min-width: 990px){
+    .item_pic{
+        width: 440px;
+        height: 440px;
+        z-index: 99;
+        position: relative;
+    }
+    
 }
+
+.campaign_main {background-color:red;}
+
+.campaign_picture {background-color: blue;}
 
 /* Kai ------------------------------- */
 .grid {
     display: grid;
-    gap: 60px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin: 60px 90px;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 60px 20px;
 }
 
-.grid_img{
-    width: 220px;
-    height: 180px;
-}
+
