@@ -16,7 +16,7 @@ $(document).ready(function(){
         },
          "jsonp");
 
-    //nav-bar animation
+    //hamburger button animation
     $('.first-button').on('click', function () {
 
         $('.animated-icon1').toggleClass('open');
@@ -42,9 +42,9 @@ function fade(element){
     });
 };
 
-window.onresize = DrawFooterLine;
+//footer 畫綫
+window.onresize = DrawFooterLine;   //call function when user resize browser
 function DrawFooterLine(event){
-    //footer 畫綫
     let canvas = document.getElementById('line');
     let ctx = canvas.getContext("2d");
     let width = document.documentElement.clientWidth;
@@ -53,13 +53,13 @@ function DrawFooterLine(event){
     canvas.width = 300;
 
     if (width >= 768)
-    {
+    {   // draw vertical line in tab or computer webside
         ctx.beginPath()
         ctx.moveTo(280, 20)
         ctx.lineTo(280, 130)
     }
     else
-    {
+    {   //draw horizontal line in phone website
         canvas.height = 15;
         ctx.beginPath()
         ctx.moveTo(30, 7)
@@ -70,4 +70,9 @@ function DrawFooterLine(event){
 
 };
 
-
+//Scroll to menu part when user click on arrow down
+$("#home_arrow_down").click(function(){
+    $('html, body').animate({
+        scrollTop: $("#home_menu").offset().top - $('.navbar').height()
+    }, 500);
+});
