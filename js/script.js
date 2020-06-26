@@ -29,6 +29,8 @@ $(document).ready(function(){
     
         $('.animated-icon3').toggleClass('open');
       });
+
+      DrawFooterLine();
 });
 
 function fade(element){
@@ -40,7 +42,8 @@ function fade(element){
     });
 };
 
-window.onresize = function(event) {
+window.onresize = DrawFooterLine;
+function DrawFooterLine(event){
     //footer 畫綫
     let canvas = document.getElementById('line');
     let ctx = canvas.getContext("2d");
@@ -65,23 +68,6 @@ window.onresize = function(event) {
     ctx.strokeStyle="white"
     ctx.stroke()
 
-});
-
-function fade(element, pic_Origin, pic_Transform){
-    let url_Origin = "url(" + pic_Origin + ")";
-    let url_Transform = "url(" + pic_Transform + ")";
-    element.mouseenter(function(){
-        element.fadeOut(400, function(){
-            element.css("background-image", url_Transform);
-            element.fadeIn(400);
-        });
-    });
-    element.mouseleave(function(){
-        element.fadeOut(400, function(){
-            element.css("background-image", url_Origin);
-            element.fadeIn(400);
-        });
-    });
 };
 
 
