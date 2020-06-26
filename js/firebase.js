@@ -103,6 +103,7 @@ function checkForm(name, email, phone, message){
   
 }
 
+// To check email style
 function checkEmail(email){
   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){
     return true;
@@ -112,6 +113,7 @@ function checkEmail(email){
   }  
 }
 
+// To check phone is number only
 function checkPhoneNumber(phone)
 {
   let phone_number = /^\d{10}$/;
