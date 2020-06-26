@@ -58,42 +58,42 @@ function checkForm(name, email, phone, message){
 
   // If the user didn't input name
   if(name === ""){
-    alert("Please enter your name.");
+    alert("In Name form:\nPlease enter your name.");
     name.focus();
     return false;
   }
 
   // If the user didn't input email
   if(email === ""){
-    alert("Please enter your email.");
+    alert("In Email form:\nPlease enter your email.");
     email.focus();
     return false;
   }
 
   // If the user put wrong email style
   if(!checkEmail(email)){
-    alert("Please enter the correct email.");
+    alert("In Email form:\nPlease enter the correct email.");
     phone.focus();
     return false;
   }
 
   // If the user didn't input name
   if(phone === ""){
-    alert("Please enter your phone number.");
+    alert("In Phone form:\nPlease enter your phone number.");
     phone.focus();
     return false;
   }
 
   // If the user didn't put number on phone section
   if(!checkPhoneNumber(phone)){
-    alert("Please enter number only.");
+    alert("In Phone form:\nPlease enter number only and only 10 digits.");
     phone.focus();
     return false;
   }
 
   // If the user didn't input message
   if(message === ""){
-    alert("Please enter your message.");
+    alert("In Message form:\nPlease enter your message.");
     message.focus();
     return false;
   }
