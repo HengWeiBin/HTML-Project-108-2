@@ -226,6 +226,10 @@ footer p{
     .poster{
         height: 500px;
     }
+
+    .arrow_down{
+        display: none;
+    }
 }
 
 @media (min-width: 990px){
