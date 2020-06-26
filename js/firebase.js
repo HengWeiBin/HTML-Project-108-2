@@ -27,6 +27,9 @@ function sendForm(e){
   let phone = getInputVal('contact_phone');
   let message = getInputVal('contact_message');
 
+  //Check Form
+  checkForm(name, email, phone, message);
+
   // Save message
   saveMessage(name, email, phone, message);
 
@@ -49,4 +52,73 @@ function saveMessage(name, email, phone, message){
     "phone": phone,
     "message": message
   });
+}
+
+function checkForm(name, email, phone, message){
+
+  // If the user didn't input name
+  if(name === ""){
+    alert("Please enter your name.");
+    name.focus();
+    return false;
+  }
+
+  // If the user didn't input email
+  if(email === ""){
+    alert("Please enter your email.");
+    email.focus();
+    return false;
+  }
+
+  // If the user put wrong email style
+  if(!checkEmail(email)){
+    alert("Please enter the correct email.");
+    phone.focus();
+    return false;
+  }
+
+  // If the user didn't input name
+  if(phone === ""){
+    alert("Please enter your phone number.");
+    phone.focus();
+    return false;
+  }
+
+  // If the user didn't put number on phone section
+  if(!checkPhoneNumber(phone)){
+    alert("Please enter number only.");
+    phone.focus();
+    return false;
+  }
+
+  // If the user didn't input message
+  if(message === ""){
+    alert("Please enter your message.");
+    message.focus();
+    return false;
+  }
+
+  alert("Thank You for Your Message")
+  return true;
+  
+}
+
+function checkEmail(email){
+  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){
+    return true;
+  }
+  else{
+    return (false)
+  }  
+}
+
+function checkPhoneNumber(phone)
+{
+  let phone_number = /^\d{10}$/;
+  if(phone.match(phone_number)){
+      return true;
+  }
+  else{
+    return false;
+  }
 }
