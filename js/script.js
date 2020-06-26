@@ -29,6 +29,8 @@ $(document).ready(function(){
     
         $('.animated-icon3').toggleClass('open');
       });
+
+      DrawFooterLine();
 });
 
 function fade(element){
@@ -40,7 +42,8 @@ function fade(element){
     });
 };
 
-window.onresize = function(event) {
+window.onresize = DrawFooterLine;
+function DrawFooterLine(event){
     //footer 畫綫
     let canvas = document.getElementById('line');
     let ctx = canvas.getContext("2d");
