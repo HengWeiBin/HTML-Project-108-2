@@ -187,7 +187,9 @@ a:hover, .table_foot_section ul li a:hover,
     line-height: 20px;
 }
 
-
+.subscribe_us{
+    display: none;
+}
 
 footer{
     height: 50px;
@@ -217,6 +219,10 @@ footer p{
 }
 
 @media (min-width: 768px){
+    .subscribe_us{
+        display: block;
+    }
+
     .poster{
         display: none!important;
     }
@@ -254,7 +260,7 @@ footer p{
         border: 2px white solid;
         border-radius: 16px;
     }
-    
+
     #line {
         width: 225px;
         height: auto;
