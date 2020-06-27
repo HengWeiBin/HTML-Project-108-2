@@ -42,8 +42,10 @@ function fade(element){
     });
 };
 
+//window.onresize = DrawFooterLine;   //call function when user resize browser
+window.onresize = function(){location.reload();};   //refresh all when user resize browser
+
 //footer 畫綫
-window.onresize = DrawFooterLine;   //call function when user resize browser
 function DrawFooterLine(event){
     let canvas = document.getElementById('line');
     let ctx = canvas.getContext("2d");
@@ -70,9 +72,20 @@ function DrawFooterLine(event){
 
 };
 
-//Scroll to menu part when user click on arrow down
+//Scroll to menu part when user click on arrow down (phone page)
 $("#home_arrow_down").click(function(){
     $('html, body').animate({
         scrollTop: $("#home_menu").offset().top - $('.navbar').height()
+    }, 500);
+});
+
+$("#campaign_link").click(function(){
+    //Redirect to home page if this link is clicked at another page
+    if (!/index.html/.test(window.location.href)){
+        window.location.href = "index.html#Campaign";
+    }
+    //else scroll to Campaign section
+    $('html, body').animate({
+        scrollTop: $("#Campaign").offset().top - $('.navbar').height()
     }, 500);
 });

@@ -73,8 +73,3 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin: 60px 90px;
 }
-
-.grid_img{
-    width: 220px;
-    height: 180px;
-}

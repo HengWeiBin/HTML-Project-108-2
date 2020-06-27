@@ -17,6 +17,7 @@
     <!-- Material Design Bootstrap -->
     <link rel="stylesheet" href="css/mdb.min.css">
     <!--custom styles-->
+    <link rel="stylesheet" href="css/campaign.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -52,7 +53,7 @@
                             <li class="nav-item"><a class="nav-link" href="coffee.html">咖啡</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">輕食</a></li>
                             <li class="nav-item"><a class="nav-link" href="pastry.html">糕點</a></li>
-                            <li class="nav-item"><a class="nav-link" href="campaign.html">活動專區</a></li>
+                            <li class="nav-item"><a id="campaign_link" class="nav-link">活動專區</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact_us.html">聯絡我們</a></li>
                         </ul>
                     </div>
@@ -143,7 +144,7 @@
         </div>
 
         <!--third section-->
-        <div class="row campaign_bg">
+        <div id="Campaign" class="row campaign_bg">
 
             <!--displacement block-->
             <div class="col-md-5"></div>
@@ -151,17 +152,44 @@
             <div class="col-md-6">
                 <!--title-->
                 <a href="#">
-                    <h1 class="row title">Campaign</h1>
-                    <h1 class="row justify-content-end subtitle">活動專區</h1>
+                    <h1 class="row title wow slideInLeft">Campaign</h1>
+                    <h1 class="row justify-content-end subtitle wow slideInRight">活動專區</h1>
                 </a>
                 <!--description-->
-                <p class="row description">
+                <p class="row description wow bounceInUp">
                     有數不清的超值優惠活動，任你挑選
                 </p>
             </div>
 
             <!--displacement block-->
             <div class="col-md-1"></div>
+
+        </div>
+        <div class="row gradient-campaign">
+
+            <div class="col-md-6 col-sm-12 justify-content-center item wow slideInUp">
+                <div class="item_pic campaign_picture July_Drinks"></div>
+                <h1 class="title_campaign">Passion Summer</h1>
+                <p class="item_description">【7月限定】清新果汁系列</p>
+            </div>
+
+            <div class="col-md-6 col-sm-12 item wow slideInUp">
+                <div class="item_pic campaign_picture July_Dessert"></div>
+                <h1 class="title_campaign">Passion Summer</h1>
+                <p class="item_description">【7月限定】蔓越莓慕斯</p>
+            </div>
+
+            <div class="col-md-6 col-sm-12 item wow slideInUp">
+                <div class="item_pic campaign_picture Daily_Limit"></div>
+                <h1 class="title_campaign">Daily Sales</h1>
+                <p class="item_description">【每日限定】每日200份馬卡龍 賣完爲止！</p>
+            </div>
+
+            <div class="col-md-6 col-sm-12 item wow slideInUp">
+                <div class="item_pic campaign_picture Lunch_Limit"></div>
+                <h1 class="title_campaign">Happy Lunch Time</h1>
+                <p class="item_description">【午餐時段限定】西式黃金鷄排佐沙拉</p>
+            </div>
 
         </div>
 
