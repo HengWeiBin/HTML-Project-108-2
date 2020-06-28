@@ -33,6 +33,16 @@ $(document).ready(function () {
     });
 
     DrawFooterLine();
+    if (deviceWidth < 768) {
+        $("#coffeeBeanPhone").css("display", "block");
+        $("#coffeeBeanTab").css("display", "none");
+    }
+    else {
+        $("#coffeeBeanPhone").css("display", "none");
+        $("#coffeeBeanTab").css("display", "block");
+        $("#coffeeBazil").removeClass("mask").addClass("maskH");
+        $("#coffeeSkill").removeClass("mask").addClass("maskH");
+    }
 });
 
 function fade(element) {
@@ -44,12 +54,24 @@ function fade(element) {
     });
 };
 
-if (deviceWidth < 768) {
-    window.onresize = DrawFooterLine;   //call function when user resize browser
-}
-else {
-    window.onresize = function () { location.reload(); };   //refresh all when user resize browser
-}
+//handle activity when browser resize
+window.onresize = function () { 
+    deviceWidth = document.documentElement.clientWidth; //update deviceWidth
+    if (deviceWidth < 768) {
+        DrawFooterLine;   //re-draw footer-line when user resize browser
+        $("#coffeeBeanPhone").css("display", "block");
+        $("#coffeeBeanTab").css("display", "none");
+        $("#coffeeBazil").addClass("mask").removeClass("maskH");
+        $("#coffeeSkill").addClass("mask").removeClass("maskH");
+    }
+    else {
+        location.reload();   //refresh all when user resize browser
+        $("#coffeeBeanPhone").css("display", "none");
+        $("#coffeeBeanTab").css("display", "block");
+        $("#coffeeBazil").removeClass("mask").addClass("maskH");
+        $("#coffeeSkill").removeClass("mask").addClass("maskH");
+    }
+};
 
 //footer 畫綫
 function DrawFooterLine(event) {

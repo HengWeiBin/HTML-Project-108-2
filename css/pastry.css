@@ -64,6 +64,7 @@
 .pic_pastry_end {
     height: 180px;
     background-image: url(../img/pastry_end.png);
+    background-position: center;
 }
 
 /* Kai ------------------------------- */
