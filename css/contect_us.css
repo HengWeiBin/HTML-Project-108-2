@@ -1,10 +1,5 @@
 .contect_background{background-image: url(../img/contact_main.png);}
 
-.form_background{
-	background: rgb(255,236,213);
-    background: linear-gradient(90deg, rgba(255,236,213,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(255,236,213,1) 100%);
-}
-
 .contact {
 	height:750px;
     margin-bottom: 180px;

@@ -2,11 +2,6 @@
     box-sizing: inherit;
 }
 
-.gradient-campaign{
-    background: rgb(255,236,213);
-    background: linear-gradient(90deg, rgba(255,236,213,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(255,236,213,1) 100%);
-}
-
 .title_campaign{
     font-size: 24pt;
     color: #8F6500;

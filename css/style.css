@@ -5,14 +5,18 @@
 
 .default-bg-color {background-color: rgb(35, 25, 0);}
 .bg-transulent-dark{ background-color: rgba(0, 0, 0, 80%); }
+.default-gradient{
+    background: rgb(255,236,213);
+    background: linear-gradient(90deg, rgba(255,236,213,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(255,236,213,1) 100%);
+}
 
 .nav-link, .sub-pg-header p, .subtitle, .description, .table_foot_section ul h2, .table_foot_section ul li,
 .subtitle_cake, .item_material, .item_description, .form label, .subtitle_coffee, .coffee_description,
-.item_description{
+.item_description, .text p, footer p{
     font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
 }
 
-#poster_title, .sub-pg-header h1, .title, .title_cake, .contact .title, .title_coffee, .title_campaign{
+#poster_title, .sub-pg-header h1, .title, .title_cake, .contact .title, .title_coffee, .title_campaign, .text h2{
     font-family: 'Playfair Display', 'Times New Roman', serif;
 }
 
@@ -31,7 +35,7 @@
     font-size: 9pt;
 }
 
-.nav-icon, .subscribe_us{
+.nav-icon, .subscribe_us, #md-campaign-title{
     display: none;
 }
 
@@ -113,7 +117,6 @@ a:hover, .table_foot_section ul li a:hover,
     transform: translate(-50%, -50%);
     font-size: 32pt;
     color: #FFECD5;
-    font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
@@ -126,19 +129,18 @@ a:hover, .table_foot_section ul li a:hover,
     transform: translate(-50%, -50%);
     font-size: 10pt;
     color: #FFECD5;
-    font-family: 'Noto Sans TC', 'Microsoft Yahei',serif;
 }
 
 .campaign_bg{
     background-image: url(../img/top_campaign.png);
     background-repeat: no-repeat;
     height: 320px; /*temp*/
+    -webkit-mask-image: linear-gradient(black 60%, transparent);
+    mask-image: linear-gradient(black 60%, transparent);
 }
 
-.gift_bg{
-    background-image: url(../img/top_gift.png);
-    background-repeat: no-repeat;
-    height: 320px; /*temp*/
+#sm-campaign-title{
+    margin-top: -100px;
 }
 
 .title{
@@ -200,7 +202,6 @@ footer{
 }
 
 footer p{
-    font-family: 'Noto Sans TC', sans-serif;
     font-size: 6pt;
     color: #FFECD5;
     margin: 0 10px 0 0;
@@ -281,6 +282,14 @@ footer p{
 
     .box_2nd_section{
         height: 180px;
+    }
+
+    #sm-campaign-title{
+        display: none;
+    }
+
+    #md-campaign-title{
+        display: block;
     }
 }
 
