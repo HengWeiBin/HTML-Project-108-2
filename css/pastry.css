@@ -6,11 +6,13 @@
     margin-top: 10px;
     font-size: 20pt;
     color: #8F6500;
+    font-weight: bold;
 }
 
 .subtitle_cake{
     margin-bottom: -5px;
     font-size: 15pt;
+    font-weight: bold;
     color: #8F6500;
     text-align: right;
 }

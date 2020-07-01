@@ -2,15 +2,28 @@
     box-sizing: inherit;
 }
 
-.pastry_main    {background-image: url(../img/pastry_main.png);}
+.food_main    {background-image: url(../img/food_main.png);}
 
 .food_pic{
     width: 100%;
 }
 
-.meal-desc h1{
-    font-size: xx-large;
+.title_food{
+    font-size: 20pt;
+    margin-top: 10px;
+    color: #8F6500;
     font-weight: bold;
+}
+
+.subtitle_food{
+    font-size: 15pt;
+    color: #8F6500;
+    text-align: right;
+    font-weight: bold;
+}
+
+.bounceInRight .subtitle_food{
+    text-align: left;
 }
 
 @media (min-width: 768px){
