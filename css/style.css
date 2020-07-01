@@ -5,6 +5,7 @@
 
 .default-bg-color {background-color: rgb(35, 25, 0);}
 .bg-transulent-dark{ background-color: rgba(0, 0, 0, 80%); }
+.light-title{ color: #f6d3a7!important;}
 
 .bg-center{
     background-size: cover !important;
