@@ -12,11 +12,12 @@
 
 .nav-link, .sub-pg-header p, .subtitle, .description, .table_foot_section ul h2, .table_foot_section ul li,
 .subtitle_cake, .item_material, .item_description, .form label, .subtitle_coffee, .coffee_description,
-.item_description, .text p, footer p{
+.item_description, .text p, footer p, .meal-desc p{
     font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
 }
 
-#poster_title, .sub-pg-header h1, .title, .title_cake, .contact .title, .title_coffee, .title_campaign, .text h2{
+#poster_title, .sub-pg-header h1, .title, .title_cake, .contact .title, .title_coffee, .title_campaign, .text h2,
+.meal-desc h1{
     font-family: 'Playfair Display', 'Times New Roman', serif;
 }
 
@@ -87,7 +88,8 @@
 }
 
 a:hover, .table_foot_section ul li a:hover,
-.hover_coffee_color:hover h2, .hover_coffee_color:hover p{
+.hover_coffee_color:hover h2, .hover_coffee_color:hover p,
+.meal-desc h1{
     color: #8F6500;
 }
 
