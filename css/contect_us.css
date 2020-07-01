@@ -12,6 +12,7 @@
 
 .contact .title {
 	color:#ffffff;
+	font-family: 'Playfair Display',serif;
 }
 
 .contact .form {
@@ -24,6 +25,7 @@
 .form label{
 	margin-bottom: 5px;
 	color: black;
+	font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
 }
 
 .form input {

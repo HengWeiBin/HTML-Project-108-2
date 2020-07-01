@@ -52,7 +52,7 @@
 
 .sub-pg-header h1{
     font-size: 60pt;
-    font-family: 'Amiri', 'Times New Roman', serif;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
 }
 
 .sub-pg-header p{
@@ -101,7 +101,7 @@ a:hover, .table_foot_section ul li a:hover,
     transform: translate(-50%, -50%);
     font-size: 32pt;
     color: #FFECD5;
-    font-family: 'Amiri', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
@@ -130,7 +130,7 @@ a:hover, .table_foot_section ul li a:hover,
 }
 
 .title{
-    font-family: 'Amiri', 'Times New Roman', serif;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
     font-weight: 700;
     font-size: 60pt;
     color: #8F6500;
