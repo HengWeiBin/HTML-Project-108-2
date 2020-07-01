@@ -1,4 +1,4 @@
-.contect_background{background-color: red;}
+.contect_background{background-image: url(../img/contact_main.png);}
 
 .form_background{
 	background: rgb(255,236,213);
@@ -12,6 +12,7 @@
 
 .contact .title {
 	color:#ffffff;
+	font-family: 'Playfair Display',serif;
 }
 
 .contact .form {
@@ -24,6 +25,7 @@
 .form label{
 	margin-bottom: 5px;
 	color: black;
+	font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
 }
 
 .form input {
@@ -82,6 +84,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color:blue;
+  background-color:#8f6500;
 }
 
