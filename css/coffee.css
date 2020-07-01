@@ -48,19 +48,16 @@
 }
 
 .title_coffee{
-    font-family: 'Playfair Display',serif;
     color:#8F6500;
     font-size: 32pt;
 }
 
 .subtitle_coffee{
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     color:#8F6500;
     font-size: 16pt;
 }
 
 .coffee_description{
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     font-size: 12pt;
     color: black;
     font-weight: normal;

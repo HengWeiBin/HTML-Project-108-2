@@ -9,13 +9,11 @@
 
 .title_cake{
     margin-top: 10px;
-    font-family: 'Playfair Display', 'Times New Roman', serif;
     font-size: 20pt;
     color: #8F6500;
 }
 
 .subtitle_cake{
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     margin-bottom: -5px;
     font-size: 15pt;
     color: #8F6500;
@@ -25,14 +23,12 @@
 .item_material{
     font-size: 8pt;
     color: gray;
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     font-style: italic;
 }
 
 .item_description{
     margin-top: -5px;
     font-size: 12pt;
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
 }
 
 .item_pic{

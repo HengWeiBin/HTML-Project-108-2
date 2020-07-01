@@ -5,7 +5,16 @@
 
 .default-bg-color {background-color: rgb(35, 25, 0);}
 .bg-transulent-dark{ background-color: rgba(0, 0, 0, 80%); }
-.light-title{ color: #f6d3a7!important;}
+
+.nav-link, .sub-pg-header p, .subtitle, .description, .table_foot_section ul h2, .table_foot_section ul li,
+.subtitle_cake, .item_material, .item_description, .form label, .subtitle_coffee, .coffee_description,
+.item_description{
+    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
+}
+
+#poster_title, .sub-pg-header h1, .title, .title_cake, .contact .title, .title_coffee, .title_campaign{
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+}
 
 .bg-center{
     background-size: cover !important;
@@ -18,7 +27,6 @@
 }
 
 .nav-link{
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     font-weight: lighter;
     font-size: 9pt;
 }
@@ -46,6 +54,14 @@
     height: 50px;
 }
 
+#poster_title{
+    font-weight: 700;
+    font-size: 60pt;
+    color: #f6d3a7;
+    text-align: center;
+    margin-top: 150px;
+}
+
 .sub-pg-header{
     height: 240px;
     color: #FFECD5;
@@ -53,12 +69,10 @@
 
 .sub-pg-header h1{
     font-size: 60pt;
-    font-family: 'Playfair Display', 'Times New Roman', serif;
 }
 
 .sub-pg-header p{
     font-size: 24pt;
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
 }
 
 .poster{
@@ -131,7 +145,6 @@ a:hover, .table_foot_section ul li a:hover,
 }
 
 .title{
-    font-family: 'Playfair Display', 'Times New Roman', serif;
     font-weight: 700;
     font-size: 60pt;
     color: #8F6500;
@@ -139,7 +152,6 @@ a:hover, .table_foot_section ul li a:hover,
 }
 
 .subtitle{
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     font-size: 24pt;
     font-weight: bold;
     color: #8F6500;
@@ -149,7 +161,6 @@ a:hover, .table_foot_section ul li a:hover,
 }
 
 .description{
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     font-size: 12pt;
     margin: 30px 30px;
     color: black;
@@ -168,7 +179,6 @@ a:hover, .table_foot_section ul li a:hover,
 }
 
 .table_foot_section ul h2{
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     color: #FFECD5;
     font-size: 12pt;
     font-weight: bold;
@@ -177,7 +187,6 @@ a:hover, .table_foot_section ul li a:hover,
 }
 
 .table_foot_section ul li{
-    font-family: 'Noto Sans TC', 'Microsoft Yahei', sans-serif;
     font-size: 10pt;
     display: block;
     text-align: end;
