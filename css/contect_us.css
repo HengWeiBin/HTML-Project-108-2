@@ -84,6 +84,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color:blue;
+  background-color:#8f6500;
 }
 
