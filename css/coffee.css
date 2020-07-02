@@ -2,6 +2,12 @@
     box-sizing: inherit;
 }
 
+#coffee_link a{
+    opacity: 50%;
+    border-bottom: white 1px dashed;
+    border-top: white 1px dashed;
+}
+
 .coffee-subtitle{
     height: 60px;
     color: white;

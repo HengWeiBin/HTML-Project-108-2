@@ -40,8 +40,8 @@ $(document).ready(function () {
     else {
         $("#coffeeBeanPhone").css("display", "none");
         $("#coffeeBeanTab").css("display", "block");
-        $("#coffeeBazil").removeClass("mask").addClass("maskH");
-        $("#coffeeSkill").removeClass("mask").addClass("maskH");
+        $("#coffeeBazil").removeClass("mask")//.addClass("maskH");
+        $("#coffeeSkill").removeClass("mask")//.addClass("maskH");
     }
 });
 
@@ -68,8 +68,8 @@ window.onresize = function () {
         location.reload();   //refresh all when user resize browser
         $("#coffeeBeanPhone").css("display", "none");
         $("#coffeeBeanTab").css("display", "block");
-        $("#coffeeBazil").removeClass("mask").addClass("maskH");
-        $("#coffeeSkill").removeClass("mask").addClass("maskH");
+        $("#coffeeBazil").removeClass("mask")//.addClass("maskH");
+        $("#coffeeSkill").removeClass("mask")//.addClass("maskH");
     }
 };
 

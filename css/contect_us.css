@@ -1,5 +1,11 @@
 .contect_background{background-image: url(../img/contact_main.png);}
 
+#contact_link a, .contact_link a{
+    opacity: 50%;
+    border-bottom: white 1px dashed;
+    border-top: white 1px dashed;
+}
+
 .contact {
 	height:750px;
     margin-bottom: 180px;
