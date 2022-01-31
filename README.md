@@ -8,6 +8,18 @@
 
 > 我們想到了“咖啡館”，一個有地道好喝的咖啡搭配好吃的糕點，在溫馨安靜的環境中，適合看書，聽音樂，三五好友 一起坐下來聚會聊天，有情調又小資的地方。
 
+## 技術涵蓋
+- HTML
+- CSS
+- Javascript
+- Google Fonts
+- Firebase
+- Library
+  - JQuery
+  - Bootstrap
+  - MDBootstrap
+  - WOW
+
 ## 首頁草稿 Wireframe
 ![Wireframe](https://github.com/HengWeiBin/HTML-Project-108-2/blob/master/readme_wireframe.jpg)
 
@@ -15,9 +27,7 @@
 ![Sitemap](https://github.com/HengWeiBin/HTML-Project-108-2/blob/master/readme_sitemap.jpg)
 
 
-
 ## 網頁當然也支援RWD
-
 ### 電腦版本 1280px
 ![rwd1280](https://github.com/HengWeiBin/HTML-Project-108-2/blob/master/readme_rwd1280.jpg)
 
