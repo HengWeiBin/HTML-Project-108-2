@@ -30,9 +30,12 @@
 ## 網頁當然也支援RWD
 ### 電腦版本 1280px
 ![rwd1280](https://github.com/HengWeiBin/HTML-Project-108-2/blob/master/readme_rwd1280.jpg)
+[電腦版本設計細節](https://github.com/HengWeiBin/HTML-Project-108-2/blob/master/%E5%B0%88%E9%A1%8C_%E8%A6%96%E8%A6%BA%E6%90%9E_%E9%9B%BB%E8%85%A6.pdf)
 
 ### 平板版本 768px
 ![rwd768](https://github.com/HengWeiBin/HTML-Project-108-2/blob/master/readme_rwd768.jpg)
+[平板版本設計細節](https://github.com/HengWeiBin/HTML-Project-108-2/blob/master/%E5%B0%88%E9%A1%8C_%E8%A6%96%E8%A6%BA%E6%90%9E_%E5%B9%B3%E6%9D%BF768px.pdf)
 
 ### 手機版本 320px
 ![rwd320](https://github.com/HengWeiBin/HTML-Project-108-2/blob/master/readme_rwd320.jpg)
+[手機版本設計細節](https://github.com/HengWeiBin/HTML-Project-108-2/blob/master/%E5%B0%88%E9%A1%8C_%E8%A6%96%E8%A6%BA%E6%90%9E_%E6%89%8B%E6%A9%9F320px.pdf)
